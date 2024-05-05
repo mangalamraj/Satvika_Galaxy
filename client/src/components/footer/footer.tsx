@@ -1,4 +1,6 @@
+import Image from "next/image";
 import "./footer.css";
+
 // import { AiOutlineInstagram } from "react-icons/ai";
 // import { AiOutlineTwitter } from "react-icons/ai";
 // import { BsFacebook } from "react-icons/bs";
@@ -27,7 +29,13 @@ const Footer = () => {
           not be available for all countries or regions. View the complete list.
         </p>
         <div className="footer-header">
-          <img src="images/Footer-Dental.svg" className="manik" alt="" />
+          <Image
+            src="/Logo4.png"
+            width={100}
+            height={100}
+            className="manik"
+            alt=""
+          />
           <hr />
         </div>
         <div className="main">
