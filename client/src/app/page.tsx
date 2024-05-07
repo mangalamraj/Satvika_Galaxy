@@ -26,7 +26,7 @@ export default function Home() {
           alt=""
         ></Image>
       </div>
-      <div className=" md:w-[90%] w-[700px] md:pb-7 pb-3 opacity-75">
+      <div className="container md:w-[90%] w-full md:pb-7 pb-3 opacity-75">
         <Image
           src="./sATVikA.svg"
           width={0}
@@ -35,7 +35,7 @@ export default function Home() {
           alt=""
         ></Image>
       </div>
-      <div className=" md:w-[88%] w-[700px] opacity-55">
+      <div className="container md:w-[88%] w-full opacity-55">
         <Image
           src="./sATVikA.svg"
           width={0}
