@@ -6,7 +6,7 @@ export default function Home() {
   //   console.log("callback - particles.js config loaded");
   // });
   return (
-    <main className="bg-black flex flex-col justify-center items-center pt-11">
+    <main className="bg-black flex flex-col justify-center items-center pt-20 pb-10">
       {" "}
       <div className="md:w-1/6 w-52 pb-7">
         <Image
