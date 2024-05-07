@@ -21,10 +21,10 @@ const Banner = () => {
           <MoveRight className="w-5" />
         </div>
       </div>
-      <CircleX
-        onClick={handleOnClick}
-        className="w-5 flex align-middle m-1 md:mr-6 cursor-pointer hover:opacity-80"
-      />
+      {/* <CircleX
+      onClick={handleOnClick}
+      className="w-5 flex align-middle m-1 md:mr-6 cursor-pointer hover:opacity-80"
+    /> */}
     </div>
   );
 };
