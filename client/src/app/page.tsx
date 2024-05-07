@@ -1,10 +1,49 @@
 import Slider from "@/components/slider";
 import Image from "next/image";
-
+// import { particlesJS } from "particles.js";
 export default function Home() {
+  // particlesJS.load("particles-js", "assets/particles-config.json", function () {
+  //   console.log("callback - particles.js config loaded");
+  // });
   return (
-    <main>
-      <Slider />
+    <main className="bg-black flex flex-col justify-center items-center pt-11">
+      {" "}
+      <div className="md:w-1/6 w-52 pb-7">
+        <Image
+          src="./gALAXY.svg"
+          width={0}
+          height={0}
+          className="w-full h-full"
+          alt=""
+        ></Image>{" "}
+      </div>
+      <div className="md:w-40 w-40 pb-12">
+        <Image
+          src="./LIVING .svg"
+          width={0}
+          height={0}
+          className="w-full h-full"
+          alt=""
+        ></Image>
+      </div>
+      <div className=" md:w-[90%] w-[700px] md:pb-7 pb-3 opacity-75">
+        <Image
+          src="./sATVikA.svg"
+          width={0}
+          height={0}
+          className="w-full h-full"
+          alt=""
+        ></Image>
+      </div>
+      <div className=" md:w-[88%] w-[700px] opacity-55">
+        <Image
+          src="./sATVikA.svg"
+          width={0}
+          height={0}
+          className="w-full h-full pb-7"
+          alt=""
+        ></Image>
+      </div>
     </main>
   );
 }
