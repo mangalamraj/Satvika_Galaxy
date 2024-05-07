@@ -11,10 +11,10 @@ const Banner = () => {
 
   return (
     <div
-      className="text-white bg-[#202022] flex items-center justify-center"
+      className="fixed w-full z-49 text-white bg-[#202022] flex items-center justify-center py-2"
       style={{ display: close }}
     >
-      <div className="text-xs font-normal flex items-center gap-2 m-auto">
+      <div className="text-xs font-normal flex items-center gap-2 m-auto tracking-wide">
         Book easy site visit. On WhatsApp.{" "}
         <p className="inline text-blue-600">BOOK NOW</p>{" "}
         <div>
