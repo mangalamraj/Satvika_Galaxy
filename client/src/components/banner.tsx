@@ -11,7 +11,7 @@ const Banner = () => {
 
   return (
     <div
-      className=" w-full z-49 text-white bg-[#202022] flex items-center justify-center py-2"
+      className=" w-full z-49 text-white bg-[#161617] flex items-center justify-center py-2"
       style={{ display: close }}
     >
       <div className="text-xs font-normal flex items-center gap-2 m-auto tracking-wide">
