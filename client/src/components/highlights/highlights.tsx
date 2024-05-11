@@ -2,9 +2,19 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./styles.css";
+import { useState } from "react";
 const Highlights = () => {
-  const [sliderRef] = useKeenSlider({
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [loaded, setLoaded] = useState(false);
+  const [sliderRef, instanceRef] = useKeenSlider({
     mode: "free-snap",
+    initial: 0,
+    slideChanged(slider) {
+      setCurrentSlide(slider.track.details.rel);
+    },
+    created() {
+      setLoaded(true);
+    },
     breakpoints: {
       "(min-width: 400px)": {
         slides: { perView: 1, spacing: 5 },
@@ -34,9 +44,24 @@ const Highlights = () => {
         <div className="keen-slider__slide number-slide2 md:rounded-3xl">2</div>
         <div className="keen-slider__slide number-slide3 md:rounded-3xl">3</div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">4</div>
-        <div className="keen-slider__slide number-slide5 md:rounded-3xl">5</div>
-        <div className="keen-slider__slide number-slide6 md:rounded-3xl">6</div>
       </div>
+      {loaded && instanceRef.current && (
+        <div className="dots mt-10 w-[137px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-70">
+          {[
+            ...Array(instanceRef.current.track.details.slides.length).keys(),
+          ].map((idx) => {
+            return (
+              <button
+                key={idx}
+                onClick={() => {
+                  instanceRef.current?.moveToIdx(idx);
+                }}
+                className={"dot" + (currentSlide === idx ? " active" : "")}
+              ></button>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 };
