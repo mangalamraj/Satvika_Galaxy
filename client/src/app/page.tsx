@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <div className="relative  bg-black h-[88vh] flex flex-col 2xl:pt-20 pt-10 items-center background overflow-hidden">
-        <div className="w-full flex flex-col justify-between h-full">
+        <div className="w-full flex flex-col gap-5 md:justify-between h-full">
           <div className="flex flex-col gap-6 w-full items-center">
             <div className="w-66">
               <Image
@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute  -bottom-36 md:-bottom-44 w-full overflow-hidden">
+        <div className="absolute  bottom-0 md:-bottom-44 w-full overflow-hidden">
           <a href="https://ibb.co/7263M0C">
             <img
               src="https://i.ibb.co/qkPHq2j/P111.png"
