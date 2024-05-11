@@ -30,7 +30,7 @@ const Footer = () => {
         </p>
         <div className="footer-header">
           <Image
-            src="/Logo4.png"
+            src="/Logo3.svg"
             width={100}
             height={100}
             className="manik"
@@ -46,10 +46,10 @@ const Footer = () => {
                   <h3>Office</h3>
 
                   <p>
-                    Road no - 6, Waranga Colony beside New Bridge, Nagpur-800024
+                    B-231, Ground Floor, Sahdeo Mahto Marg, S.K. Puri, Boaring
+                    Road, Patna - 800001
                   </p>
-                  <a href="#">manikmaity.haker2003@gmail.com</a>
-                  <p>+91 90545841512</p>
+                  <p>+91 87095 95001</p>
                 </div>
                 <div className="s_tags">
                   {/* <span>

@@ -32,8 +32,12 @@ const CTA = () => {
               <p className="inline text-blue-600">Satvikagroup.in</p>
             </div>
           </div>
-          <div className="md:w-[80%] md:m-auto">
-            <img src="/fistbump.png" className="w-full" />
+          <div className="md:w-[70%] md:m-auto">
+            <img src="/fistbump.png" className="w-full md:h-[450px]" />
+          </div>
+          <div className="text-sm font-medium  md:m-auto">
+            Explore projects.{" "}
+            <p className="inline text-blue-600">Satvikagroup.in</p>
           </div>
         </div>
       </div>
