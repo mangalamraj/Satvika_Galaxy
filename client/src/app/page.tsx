@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div className="absolute  -bottom-36 md:-bottom-44 w-full overflow-hidden">
         <img
-          src="/p11.png"
+          src="/p111.png"
           width={0}
           height={0}
           className="mx-auto 2xl:w-[760px] w-[640px]"
