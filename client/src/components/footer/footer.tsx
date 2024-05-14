@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer-sec">
       <div className="footerparent">
-        <p className="navbarbakchodi">
+        {/* <p className="navbarbakchodi">
           1. Electric vehicle routing requires iPhone with iOS 15 or later and a
           compatible vehicle.{" "}
         </p>
@@ -27,7 +27,7 @@ const Footer = () => {
         <p className="navbarbakchodi">
           4. Guides in Maps are available in selected cities. Some features may
           not be available for all countries or regions. View the complete list.
-        </p>
+        </p> */}
         <div className="footer-header">
           <Image
             src="/Logo3.svg"

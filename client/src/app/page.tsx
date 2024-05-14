@@ -1,3 +1,4 @@
+import * as React from "react";
 import Image from "next/image";
 import "./home.css"; // Assuming this contains additional styles
 import Highlights from "@/components/highlights/highlights";
@@ -5,6 +6,8 @@ import CTA from "@/components/satvikaCTA/cta";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer/footer";
 import KeyWorks from "@/components/keyWorks/keyWorks";
+import ContentGalllery from "@/components/contenGallery/contantgallery";
+import ZoomSection from "@/components/sectionZoom/ZoomContent";
 
 export default function Home() {
   return (
@@ -74,8 +77,8 @@ export default function Home() {
       </div>
       <Highlights />
       <CTA />
-      {/*
-    <KeyWorks /> */}
+      <ContentGalllery />
+      <ZoomSection />
     </main>
   );
 }
