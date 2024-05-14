@@ -1,7 +1,7 @@
 import Image from "next/image";
 const CTA = () => {
   return (
-    <main className="relative bg-black text-white py-20 ">
+    <main className="relative bg-black text-white py-40 ">
       <div className="container flex flex-col items-center">
         <Image
           width={200}
@@ -10,7 +10,7 @@ const CTA = () => {
           src="/Logo3.svg"
           className="pb-10 md:pb-14"
         />
-        <div className="container absolute top-40 md:w-[100%] w-full md:pb-7 pb-3 opacity-75">
+        <div className="container absolute top-60 md:w-[100%] w-full md:pb-7 pb-3 opacity-75">
           <Image
             src="/1.svg"
             width={0}
