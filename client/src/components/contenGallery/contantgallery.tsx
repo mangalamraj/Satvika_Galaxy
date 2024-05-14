@@ -6,7 +6,7 @@ const ContentGalllery = () => {
           Explore the full story.
         </div>
         <div className="container md:text-6xl text-4xl leading4 font-semibold">
-          <p>iPhone.</p>Forged in titanium.
+          <div  className="m-auto"><p >iPhone.</p>Forged in titanium.</div>
         </div>
         <div className="ImageGallery"></div>
         <div className=" container items-center  mt-6">
