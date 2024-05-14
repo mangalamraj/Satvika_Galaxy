@@ -8,6 +8,7 @@ import Footer from "@/components/footer/footer";
 import KeyWorks from "@/components/keyWorks/keyWorks";
 import ContentGalllery from "@/components/contenGallery/contantgallery";
 import ZoomSection from "@/components/sectionZoom/ZoomContent";
+import SecondaryCTA from "@/components/satvikaSecondaryCTA/secondaryCTA";
 
 export default function Home() {
   return (
@@ -78,6 +79,7 @@ export default function Home() {
       <Highlights />
       <CTA />
       <ContentGalllery />
+      <SecondaryCTA />
       <ZoomSection />
     </main>
   );
