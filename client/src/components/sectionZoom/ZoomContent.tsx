@@ -3,8 +3,8 @@ import Image from "next/image";
 const ZoomSection = () => {
   return (
     <div className="bg-black py-40">
-      <div className="container text-white md:text-6xl text-4xl leading4 font-semibold">
-        <div className=" md:w-3/4 m-auto">
+      <div className="container text-white ">
+        <div className=" md:w-3/4 m-auto md:text-6xl text-4xl leading4 font-semibold">
           A camera that captures your wildest imagination.
         </div>
         <div className="md:w-3/4 m-auto text-[#86868b] text-2xl font-semibold my-10">
