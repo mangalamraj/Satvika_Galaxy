@@ -9,6 +9,8 @@ import KeyWorks from "@/components/keyWorks/keyWorks";
 import ContentGalllery from "@/components/contenGallery/contantgallery";
 import ZoomSection from "@/components/sectionZoom/ZoomContent";
 import SecondaryCTA from "@/components/satvikaSecondaryCTA/secondaryCTA";
+import SmallerCarousel from "@/components/smallerCurousel/smallerCurousel";
+import AccordionCard from "@/components/accordianCard/accordianCard";
 
 export default function Home() {
   return (
@@ -81,6 +83,8 @@ export default function Home() {
       <ContentGalllery />
       <SecondaryCTA />
       <ZoomSection />
+      <SmallerCarousel />
+      <AccordionCard />
     </main>
   );
 }
