@@ -11,6 +11,9 @@ import ZoomSection from "@/components/sectionZoom/ZoomContent";
 import SecondaryCTA from "@/components/satvikaSecondaryCTA/secondaryCTA";
 import SmallerCarousel from "@/components/smallerCurousel/smallerCurousel";
 import AccordionCard from "@/components/accordianCard/accordianCard";
+import AmenitiesCarousel from "@/components/amenitiesCarousel/amenitiesCarousel";
+import FeatureCsrd from "@/components/featureCard/featureCard";
+import FeatureComponent from "@/components/featureComponent/featureComp";
 
 export default function Home() {
   return (
@@ -78,6 +81,69 @@ export default function Home() {
           <img src="/cloud.png" className="w-[400px] m-auto" />
         </div>
       </div>
+      <article className="flex items-center justify-center relative  max-w-full min-h-8 overflow-x-hidden font-serif uppercase text-base text-white bg-red-500 ">
+        <div className="flex gap-4 whitespace-nowrap relative overflow-hidden select-none marquee-animation w-[95%]">
+          <div className="flex gap-4 justify-around min-w-full">
+            <span className="flex justify-center items-center text-base">
+              Дело помощи утопающим — дело рук самих утопающих! ✨
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Шахматы двигают вперёд не только культуру, но и экономику! 🔥
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Лёд тронулся, господа присяжные заседатели! 🔥
+            </span>
+          </div>
+          <div className="flex gap-4 justify-around min-w-full">
+            <span className="flex justify-center items-center text-base">
+              Дело помощи утопающим — дело рук самих утопающих! ⭐️
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Шахматы двигают вперёд не только культуру, но и экономику!
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Лёд тронулся, господа присяжные заседатели!
+            </span>
+          </div>
+          <div
+            aria-hidden="true"
+            className="flex gap-4 justify-around min-w-full"
+          >
+            <span className="flex justify-center items-center text-base">
+              Дело помощи утопающим — дело рук самих утопающих!
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Шахматы двигают вперёд не только культуру, но и экономику!
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Лёд тронулся, господа присяжные заседатели!
+            </span>
+          </div>
+          <div
+            aria-hidden="true"
+            className="flex gap-4 justify-around min-w-full"
+          >
+            <span className="flex justify-center items-center text-base">
+              Дело помощи утопающим — дело рук самих утопающих!
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Шахматы двигают вперёд не только культуру, но и экономику!
+            </span>
+
+            <span className="flex justify-center items-center text-base">
+              Лёд тронулся, господа присяжные заседатели!
+            </span>
+          </div>
+        </div>
+      </article>
+
       <Highlights />
       <CTA />
       <ContentGalllery />
@@ -85,6 +151,9 @@ export default function Home() {
       <ZoomSection />
       <SmallerCarousel />
       <AccordionCard />
+      {/* <AmenitiesCarousel /> */}
+      <FeatureCsrd />
+      <FeatureComponent />
     </main>
   );
 }

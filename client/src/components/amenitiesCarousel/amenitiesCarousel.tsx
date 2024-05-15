@@ -15,22 +15,18 @@ import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
 import React from "react";
 
-const SmallerCarousel = () => {
+const AmenitiesCarousel = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true }),
   );
   return (
-    <div className=" bg-black py-40 text-white">
+    <div className="bg-[#161617] py-20 text-white">
       <div className="container">
-        <div className=" md:w-3/4 m-auto md:text-6xl text-4xl leading4 font-semibold">
-          Welcome to Satvika Galaxy Apartments.
-        </div>
-        <div className="md:w-3/4 m-auto text-[#86868b] text-2xl font-semibold my-10">
-          Discover Unmatched Comfort and Luxury: Experience Stellar Living at
-          Satvika Galaxy Apartments
+        <div className=" font-semibold text-3xl md:text-5xl text-[#86868b] mb-10">
+          Amanities
         </div>
       </div>
-      <div className="md:w-[90%] m-auto">
+      <div className="w-[74%] m-auto">
         <Carousel
           opts={{
             align: "start",
@@ -40,31 +36,27 @@ const SmallerCarousel = () => {
               delay: 4000,
             }),
           ]}
-          className=" max-w-full ml-auto"
+          className=" max-w-full ml-auto rounded-3xl"
         >
           <CarouselContent>
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem
                 key={index}
-                className="md:basis-1/2 lg:basis-1/3 pl-1"
+                className="md:basis-3/4 lg:basis-1/4 pl-1 rounded-3xl"
               >
-                <div className="p-1">
-                  <div>
-                    <img
-                      src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens1__brxt4ho5qkeu_large_2x.jpg"
-                      width={600}
-                      height={500}
-                      alt=""
-                    />
-                  </div>
-                  <div className="p-2 text-center">
-                    Benchmark development that exceeds exptectations
-                  </div>
+                <div className="p-0 rounded-3xl border-0">
+                  <Card className="rounded-3xl bg-[#242426] border-0 w-[300px]">
+                    <CardContent className="flex aspect-square items-center justify-center border-0">
+                      <span className="text-4xl font-semibold">
+                        {index + 1}
+                      </span>
+                    </CardContent>
+                  </Card>
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="hidden md:block">
+          <div className="block">
             <CarouselPrevious className="text-white bg-black" />
             <CarouselNext className="text-white bg-black" />
           </div>
@@ -74,4 +66,4 @@ const SmallerCarousel = () => {
   );
 };
 
-export default SmallerCarousel;
+export default AmenitiesCarousel;
