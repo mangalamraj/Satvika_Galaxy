@@ -18,7 +18,7 @@ import "./accordian.css";
 const AccordionCard = () => {
   const [activeAccordion, setActiveAccordion] = useState(null); // State to manage active accordion item
 
-  const toggleAccordion = (value) => {
+  const toggleAccordion = (value: any) => {
     setActiveAccordion(activeAccordion === value ? null : value); // Toggle accordion state
   };
   return (
