@@ -14,7 +14,7 @@ const SecondaryCTA = () => {
         <div className="text-center md:text-6xl text-4xl leading4 font-semibold">
           A17 Pro chip. <p>A monster win for gaming.</p>
         </div>
-        <div className="text-center text-[#86868b] text-2xl font-semibold my-10">
+        <div className=" container text-center text-[#86868b] text-2xl font-semibold my-10">
           It’s here. The biggest redesign in the history of Apple GPUs.
         </div>
         <div className="container md:flex justify-center gap-20 text-[#86868b]">
@@ -25,7 +25,7 @@ const SecondaryCTA = () => {
                 best graphics performance by far.
               </p>
             </div>
-            <div>
+            <div className="pb-4">
               Mobile{" "}
               <p className="inline text-white">
                 games will look and feel so immersive, with incredibly detailed
