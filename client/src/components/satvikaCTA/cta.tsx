@@ -33,7 +33,7 @@ const CTA = () => {
             </div>
           </div>
           <div className="md:w-[70%] md:m-auto">
-            <img src="/fistbump.png" className="w-full md:h-[450px]" />
+            <img src="/Hands.png" className="w-full md:h-[450px]" />
           </div>
           <div className="text-sm font-medium  md:m-auto">
             Explore projects.{" "}

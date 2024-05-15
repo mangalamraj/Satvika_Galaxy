@@ -22,7 +22,7 @@ const AccordionCard = () => {
     setActiveAccordion(activeAccordion === value ? null : value); // Toggle accordion state
   };
   return (
-    <div className="bg-[#161617] py-40 bg-opacity-99">
+    <div className="bg-[#161617] pt-40 pb-20 bg-opacity-99">
       <div className="container   text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <h1 className=" font-semibold text-3xl md:text-5xl text-[#86868b] mb-10">
           Get the highlights

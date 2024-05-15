@@ -10,6 +10,11 @@ body {
     padding: 10px 0;
     justify-content: center;
 }
+.keen-slider__slide {
+    display: flex;
+    justify-content: center;
+}
+
 @media and screens(max-width:"770px") {
     .dots {
         display: hidden;
@@ -47,7 +52,6 @@ body {
     font-size: 50px;
     color: #fff;
     font-weight: 500;
-    height: 400px;
     max-height: 100vh;
 }
 
