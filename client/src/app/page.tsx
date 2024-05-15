@@ -64,15 +64,11 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute  bottom-0 md:-bottom-44 w-full overflow-hidden">
-          <a href="https://ibb.co/7263M0C">
-            <img
-              src="https://i.ibb.co/qkPHq2j/P111.png"
-              alt="P111"
-              width={0}
-              height={0}
-              className="mx-auto 2xl:w-[760px] w-[640px]"
-            />
-          </a>
+          <img
+            src="/P1.png"
+            alt="P111"
+            className="mx-auto 2xl:w-[960px] w-[840px]"
+          />
         </div>
         <div className="absolute hidden md:block md:-bottom-20 left-0 w-2/3  overflow-hidden">
           <img src="/cloud.png" className="w-[400px] m-auto" />
@@ -81,69 +77,7 @@ export default function Home() {
           <img src="/cloud.png" className="w-[400px] m-auto" />
         </div>
       </div>
-      <article className="flex items-center justify-center relative  max-w-full min-h-8 overflow-x-hidden font-serif uppercase text-base text-white bg-red-500 ">
-        <div className="flex gap-4 whitespace-nowrap relative overflow-hidden select-none marquee-animation w-[95%]">
-          <div className="flex gap-4 justify-around min-w-full">
-            <span className="flex justify-center items-center text-base">
-              Дело помощи утопающим — дело рук самих утопающих! ✨
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Шахматы двигают вперёд не только культуру, но и экономику! 🔥
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Лёд тронулся, господа присяжные заседатели! 🔥
-            </span>
-          </div>
-          <div className="flex gap-4 justify-around min-w-full">
-            <span className="flex justify-center items-center text-base">
-              Дело помощи утопающим — дело рук самих утопающих! ⭐️
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Шахматы двигают вперёд не только культуру, но и экономику!
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Лёд тронулся, господа присяжные заседатели!
-            </span>
-          </div>
-          <div
-            aria-hidden="true"
-            className="flex gap-4 justify-around min-w-full"
-          >
-            <span className="flex justify-center items-center text-base">
-              Дело помощи утопающим — дело рук самих утопающих!
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Шахматы двигают вперёд не только культуру, но и экономику!
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Лёд тронулся, господа присяжные заседатели!
-            </span>
-          </div>
-          <div
-            aria-hidden="true"
-            className="flex gap-4 justify-around min-w-full"
-          >
-            <span className="flex justify-center items-center text-base">
-              Дело помощи утопающим — дело рук самих утопающих!
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Шахматы двигают вперёд не только культуру, но и экономику!
-            </span>
-
-            <span className="flex justify-center items-center text-base">
-              Лёд тронулся, господа присяжные заседатели!
-            </span>
-          </div>
-        </div>
-      </article>
-
+      <div className="w-full h-2 bg-white"></div>
       <Highlights />
       <CTA />
       <ContentGalllery />
