@@ -31,10 +31,8 @@ export default function Home() {
   return (
     <main>
       <div className="relative  bg-black h-[88vh] flex flex-col 2xl:pt-20 pt-10 items-center background overflow-hidden">
-        <div className="overflow-hidden h-[1vh]">
-          <span></span>
-          <span></span>
-        </div>
+        <div className="span1"></div>
+        <div className="span1"></div>
         <div className="w-full flex flex-col gap-5 md:justify-between h-full">
           <div className="flex flex-col gap-6 w-full items-center">
             <div className="w-66">
@@ -102,7 +100,7 @@ export default function Home() {
           <img src="/cloud.png" className="w-[400px] m-auto" />
         </motion.div>
         <motion.div
-          className="absolute hidden md:block md:bottom-28 right-0 w-2/3  overflow-hidden"
+          className="absolute bottom-44 md:block md:bottom-28 right-0 md:w-2/3 w-1/3  overflow-hidden"
           style={{ translateX: c2 }}
           ref={ref}
         >
