@@ -2,7 +2,14 @@ const ContentGalllery = () => {
   return (
     <div className="  bg-[#161617] text-white py-40">
       <div className="container ">
-        <div className="font-semibold text-3xl md:text-5xl text-[#86868b] pb-20">
+        <div
+          className="font-semibold text-3xl md:text-4xl text-[#86868b] pb-20"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="0"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           Explore the full story.
         </div>
         <div className="md:w-3/4 md:m-auto md:text-6xl text-4xl leading4 font-semibold">
