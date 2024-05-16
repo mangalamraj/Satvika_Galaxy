@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/accordion";
 import { useState } from "react";
 import "./accordian.css";
+
 const AccordionCard = () => {
   const [activeAccordion, setActiveAccordion] = useState(null); // State to manage active accordion item
 
@@ -24,7 +25,14 @@ const AccordionCard = () => {
   return (
     <div className="bg-[#161617] pt-40 pb-20 bg-opacity-99">
       <div className="md:container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
-        <h1 className=" font-semibold text-3xl md:text-5xl text-[#86868b] mb-10">
+        <h1
+          className=" font-semibold text-3xl md:text-4xl text-[#86868b] mb-10"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="800"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           Get the highlights
         </h1>
         <Card className="px-4 py-8 bg-black border-0  text-white  md:rounded-3xl flex flex-col md:flex-row">

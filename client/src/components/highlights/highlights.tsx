@@ -3,6 +3,11 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./styles.css";
 import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const Highlights = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
@@ -59,14 +64,35 @@ const Highlights = () => {
   return (
     <div className="bg-[#161617] py-40 bg-opacity-99">
       <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
-        <h1 className=" font-semibold text-3xl md:text-5xl text-[#86868b]">
+        <h1
+          className=" font-semibold text-3xl md:text-4xl text-[#86868b]"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="0"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           Get the highlights
         </h1>
         <div className="flex  md:gap-5 flex-col gap-2  md:flex-row md:items-center">
-          <div className="text-sm font-medium md:text-center text-left  ">
+          <div
+            className="text-sm font-medium md:text-center text-left  "
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="500"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
             Get the video. <p className="inline text-blue-600">YouTube</p>
           </div>
-          <div className="text-sm font-medium  md:items-center text-left ">
+          <div
+            className="text-sm font-medium  md:items-center text-left "
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="800"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
             Get the Brochure. <p className="inline text-blue-600">Download</p>
           </div>
         </div>

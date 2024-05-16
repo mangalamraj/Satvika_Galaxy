@@ -116,7 +116,7 @@ export default function Home() {
       <ZoomSection />
       <SmallerCarousel />
       <AccordionCard />
-      {/* <AmenitiesCarousel /> */}
+      <AmenitiesCarousel />
       <FeatureCsrd />
       <FeatureComponent />
     </main>
