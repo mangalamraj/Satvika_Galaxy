@@ -10,9 +10,10 @@ const FeatureComponent = () => {
   return (
     <div className=" bg-black py-40 bg-opacity-99">
       <div className="container">
-        <Card className="bg-[#161617] border-0  text-white  md:rounded-3xl  p-20">
+        <Card className="container bg-[#161617] border-0  text-white  md:rounded-3xl  md:p-20 p-8 py-10">
           <div className="text-3xl md:text-5xl font-semibold  m-auto">
-            Designed to <p className="mt-2">make a difference.</p>
+            Designed to{" "}
+            <p className="mt-2 inline md:block">make a difference.</p>
           </div>
           <div className=" h-[0.5px] m-auto bg-[#424245] my-10"></div>
           <div className="md:flex justify-between">

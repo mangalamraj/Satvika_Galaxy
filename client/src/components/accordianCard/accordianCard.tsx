@@ -23,15 +23,15 @@ const AccordionCard = () => {
   };
   return (
     <div className="bg-[#161617] pt-40 pb-20 bg-opacity-99">
-      <div className="container   text-white gap-4 flex-col md:flex-row  text-left mb-10">
+      <div className="md:container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <h1 className=" font-semibold text-3xl md:text-5xl text-[#86868b] mb-10">
           Get the highlights
         </h1>
-        <Card className="bg-black border-0  text-white  rounded-3xl flex flex-col md:flex-row">
+        <Card className="px-4 py-8 bg-black border-0  text-white  md:rounded-3xl flex flex-col md:flex-row">
           <Accordion
             type="single"
             collapsible
-            className="w-full p-16"
+            className=" w-full md:p-16"
             defaultValue="my-value"
           >
             <AccordionItem
