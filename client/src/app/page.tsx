@@ -110,7 +110,7 @@ export default function Home() {
         </motion.div>
       </div>
       <div className="w-full h-2 bg-white"></div>
-      <VideoComponent />
+      {/* <VideoComponent /> */}
       <Highlights />
       <CTA />
       <ContentGalllery />
