@@ -23,9 +23,9 @@ import {
 
 export default function AmenitiesCarousel() {
   return (
-    <div className="bg-[#161617]">
-      <div className="container font-semibold text-3xl md:text-4xl text-[#86868b]">
-        Ways to shop and save at Apple.
+    <div className="bg-black">
+      <div className=" font-semibold text-3xl md:text-4xl text-[#86868b]">
+        <div className="container">Ways to shop and save at Apple.</div>
       </div>
       <div className="relative pt-10">
         <Swiper
@@ -134,11 +134,11 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
+                <DialogTrigger className="w-full ">
                   <CirclePlus className="ml-auto mt-4" size={30} />
                 </DialogTrigger>
-                <DialogContent>
-                  <DialogHeader>
+                <DialogContent className="dark:bg-[#242426] border-0">
+                  <DialogHeader className="bg-[#242426] text-white">
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
                     <DialogDescription>
                       This action cannot be undone. This will permanently delete
@@ -291,6 +291,7 @@ export default function AmenitiesCarousel() {
               />
             </div>
           </div>
+          <div className="m-auto w-[40%] h-[0.75px] bg-white opacity-50"></div>
         </Swiper>
       </div>
     </div>

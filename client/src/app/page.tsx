@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import Image from "next/image";
+
 import "./home.css"; // Assuming this contains additional styles
 import Highlights from "@/components/highlights/highlights";
 import CTA from "@/components/satvikaCTA/cta";
@@ -16,10 +17,15 @@ import AmenitiesCarousel from "@/components/amenitiesCarousel/amenitiesCarousel"
 import FeatureCsrd from "@/components/featureCard/featureCard";
 import FeatureComponent from "@/components/featureComponent/featureComp";
 import VideoComponent from "@/components/videoComponent/videoComponent";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -113,10 +119,11 @@ export default function Home() {
       <CTA />
       <ContentGalllery />
       <SecondaryCTA />
+      <AmenitiesCarousel />
       <ZoomSection />
       <SmallerCarousel />
       <AccordionCard />
-      <AmenitiesCarousel />
+
       <FeatureCsrd />
       <FeatureComponent />
     </main>

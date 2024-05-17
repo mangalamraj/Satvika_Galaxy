@@ -1,3 +1,6 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const ContentGalllery = () => {
   return (
     <div className="  bg-[#161617] text-white py-40">
