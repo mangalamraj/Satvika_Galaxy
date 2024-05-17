@@ -3,10 +3,6 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./styles.css";
 import { useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
 
 const Highlights = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
