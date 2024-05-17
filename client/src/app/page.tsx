@@ -21,6 +21,7 @@ import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FloatButton from "@/components/floatButton/floatButton";
 
 export default function Home() {
   useEffect(() => {
@@ -61,7 +62,13 @@ export default function Home() {
               />
             </div>
           </div>
-
+          <span
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
+            <FloatButton />
+          </span>
           <div className="w-full md:pb-4 pt-28 -z-1">
             <motion.div
               ref={ref}
