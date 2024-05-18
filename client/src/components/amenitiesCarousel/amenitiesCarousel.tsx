@@ -322,7 +322,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <div className="relative w-[80%] mt-20 ">
+          <div className="relative w-[80%] md:mt-14 mt-10 ">
             <div className=" absolute bottom-0  right-0 mt-10 mr-14  swiper-button-prev">
               <Image
                 src="/arrow.svg"
