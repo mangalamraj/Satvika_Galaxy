@@ -10,14 +10,45 @@ import { Separator } from "@/components/ui/separator";
 
 const FeatureCard = () => {
   return (
-    <div className="bg-[#161617] py-40 bg-opacity-99">
+    <div className="bg-[#161617] md:py-40 py-20 bg-opacity-99">
       <div className="  text-white gap-4 flex-col md:flex-row  text-left mb-10">
-        <h1 className="container font-semibold text-3xl md:text-4xl text-[#86868b] mb-10">
-          Get the highlights
-        </h1>
+        <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
+          <h1
+            className=" font-semibold text-3xl md:text-4xl text-[#86868b]"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            Get the highlights
+          </h1>
+          <div className="flex  md:gap-5 flex-col gap-2  md:flex-row md:items-center">
+            <div
+              className="text-sm font-medium md:text-center text-left  "
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              Get the video. <p className="inline text-blue-600">YouTube</p>
+            </div>
+            <div
+              className="text-sm font-medium  md:items-center text-left "
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="800"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              Get the Brochure. <p className="inline text-blue-600">Download</p>
+            </div>
+          </div>
+        </div>
         <div className="md:container">
           <Card className=" bg-black border-0  text-white  md:rounded-3xl  py-20">
-            <div className="px-8 flex m-auto justify-between md:w-1/2 ">
+            <div className="px-8 flex m-auto justify-between md:w-1/2 gap-8">
               <div className=" md:text-center ">
                 <img
                   src="https://www.apple.com/v/iphone-15-pro/c/images/overview/contrast/iphone_15pro__3nx4u28gc026_large_2x.jpg"

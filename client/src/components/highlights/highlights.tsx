@@ -58,7 +58,7 @@ const Highlights = () => {
     ],
   );
   return (
-    <div className="bg-[#161617] py-40 bg-opacity-99">
+    <div className="bg-[#161617] py-20 md:py-40 bg-opacity-99">
       <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <h1
           className=" font-semibold text-3xl md:text-4xl text-[#86868b]"
@@ -126,7 +126,7 @@ const Highlights = () => {
         </div>
       </div>
       {loaded && instanceRef.current && (
-        <div className="dots mt-10 w-[137px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-70">
+        <div className="dots mt-10 w-[137px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-80">
           {[
             ...Array(instanceRef.current.track.details.slides.length).keys(),
           ].map((idx) => {

@@ -23,19 +23,43 @@ const AccordionCard = () => {
     setActiveAccordion(activeAccordion === value ? null : value); // Toggle accordion state
   };
   return (
-    <div className="bg-[#161617] pt-40 pb-20 bg-opacity-99">
-      <div className="md:container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
-        <h1
-          className=" font-semibold text-3xl md:text-4xl text-[#86868b] mb-10"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="800"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-        >
-          Get the highlights
-        </h1>
-        <Card className="px-4 py-8 bg-black border-0  text-white  md:rounded-3xl flex flex-col md:flex-row">
+    <div className="bg-[#161617] pt-20  md:pt-40 pb-20 bg-opacity-99">
+      <div className="container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
+        <div className=" flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
+          <h1
+            className=" font-semibold text-3xl md:text-4xl text-[#86868b]"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            Get the highlights
+          </h1>
+          <div className="flex  md:gap-5 flex-col gap-2  md:flex-row md:items-center">
+            <div
+              className="text-sm font-medium md:text-center text-left  "
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              Get the video. <p className="inline text-blue-600">YouTube</p>
+            </div>
+            <div
+              className="text-sm font-medium  md:items-center text-left "
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="800"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              Get the Brochure. <p className="inline text-blue-600">Download</p>
+            </div>
+          </div>
+        </div>
+        <Card className="px-8 py-8 bg-black border-0  text-white  md:rounded-3xl flex flex-col md:flex-row">
           <Accordion
             type="single"
             collapsible

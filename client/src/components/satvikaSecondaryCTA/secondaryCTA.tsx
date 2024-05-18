@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SecondaryCTA = () => {
   return (
-    <div className="conatainer py-40 bg-black text-white">
+    <div className="conatainer py-20 md:py-40 bg-black text-white">
       <div className="md:w-3/4 m-auto">
         <Image
           width={200}
