@@ -7,7 +7,7 @@ const ZoomSection = () => {
         <div className=" md:w-3/4 m-auto md:text-6xl text-4xl leading4 font-semibold">
           A camera that captures your wildest imagination.
         </div>
-        <div className="md:w-3/4 m-auto text-[#86868b] text-2xl font-semibold my-10">
+        <div className="md:w-3/4 m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">
           From dramatic framing flexibility to next-generation portraits, see
           what you can do with our most powerful iPhone camera system.
         </div>
