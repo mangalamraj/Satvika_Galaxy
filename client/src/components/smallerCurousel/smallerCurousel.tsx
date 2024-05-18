@@ -25,7 +25,7 @@ const SmallerCarousel = () => {
         <div className=" md:w-3/4 m-auto md:text-6xl text-4xl leading4 font-semibold">
           Welcome to Satvika Galaxy Apartments.
         </div>
-        <div className="md:w-3/4 m-auto text-[#86868b] text-2xl font-semibold my-10">
+        <div className="md:w-3/4  m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">
           Discover Unmatched Comfort and Luxury: Experience Stellar Living at
           Satvika Galaxy Apartments
         </div>
