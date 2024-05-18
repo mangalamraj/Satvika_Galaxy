@@ -10,5 +10,6 @@
 }
 
 .fade-up {
+    animation-delay: 2s;
     animation: fadeUp 1s ease-out;
 }

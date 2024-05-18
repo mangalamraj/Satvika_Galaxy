@@ -1,7 +1,7 @@
 import Image from "next/image";
 const CTA = () => {
   return (
-    <main className="relative bg-black text-white py-40 ">
+    <main className="relative bg-black text-white py-20 md:py-40 ">
       <div className="container flex flex-col items-center">
         <Image
           width={200}

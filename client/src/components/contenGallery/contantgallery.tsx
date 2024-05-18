@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 
 const ContentGalllery = () => {
   return (
-    <div className="  bg-[#161617] text-white py-40">
+    <div className="  bg-[#161617] text-white py-20 md:py-40">
       <div className="container ">
         <div
           className="font-semibold text-3xl md:text-4xl text-[#86868b] pb-20"

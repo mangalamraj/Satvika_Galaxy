@@ -20,12 +20,15 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import Image from "next/image";
 
 export default function AmenitiesCarousel() {
   return (
-    <div className="bg-black">
-      <div className=" font-semibold text-3xl md:text-4xl text-[#86868b]">
-        <div className="container">Ways to shop and save at Apple.</div>
+    <div className="bg-black py-20 md:py-40">
+      <div className="container font-semibold text-3xl md:text-4xl text-white">
+        <div className="md:w-4/5 m-auto md:text-4xl text-4xl leading4 font-semibold">
+          A camera that captures your wildest imagination.
+        </div>
       </div>
       <div className="relative pt-10">
         <Swiper
@@ -70,8 +73,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
@@ -102,8 +111,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
@@ -134,8 +149,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full ">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent className="dark:bg-[#242426] border-0">
                   <DialogHeader className="bg-[#242426] text-white">
@@ -166,8 +187,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
@@ -198,8 +225,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
@@ -230,8 +263,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
@@ -262,8 +301,14 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-full">
-                  <CirclePlus className="ml-auto mt-4" size={30} />
+                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
@@ -279,20 +324,26 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <div className="relative w-[80%] mt-20 ">
             <div className=" absolute bottom-0  right-0 mt-10 mr-14  swiper-button-prev">
-              <CircleChevronLeft
-                className="text-white hover:opacity-70 cursor-pointer"
-                size={30}
+              <Image
+                src="/arrow.svg"
+                alt=""
+                width={30}
+                height={30}
+                className="hover:opacity-80 cursor-pointer"
               />
             </div>
             <div className=" absolute bottom-0 right-0 mt-10 mr-1 swiper-button-next">
-              <CircleChevronRight
-                className="text-white hover:opacity-70 cursor-pointer"
-                size={30}
+              <Image
+                src="/arrow.svg"
+                alt=""
+                width={30}
+                height={30}
+                className="rotate-180 hover:opacity-80 cursor-pointer"
               />
             </div>
           </div>
-          <div className="m-auto w-[40%] h-[0.75px] bg-white opacity-50"></div>
         </Swiper>
+        <div className="m-auto md:w-[50%] w-[90%] h-[0.75px] bg-white opacity-20 mt-40 "></div>
       </div>
     </div>
   );
