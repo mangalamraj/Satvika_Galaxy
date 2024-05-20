@@ -208,11 +208,13 @@ const Highlights = () => {
           })}
         </div>
       )}
-      <div className="text-sm font-medium text-center mt-10 w-[50%] m-auto text-[#86868b]">
+      <div className="text-sm font-medium text-center mt-10 w-[45%] m-auto text-[#86868b]">
         Step into Satvika Galaxy, Where every home is a shinig star. Located in
         the heart of, patna this stellar project by{" "}
-        <Link href="https://satvikagroup.in/">SATVIKA GROUP</Link> offers you
-        lifestyle that is out of this world.
+        <Link href="https://satvikagroup.in/" target="_blank">
+          <p className="inline text-blue-600">SATVIKA GROUP</p>
+        </Link>{" "}
+        offers you lifestyle that is out of this world.
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 "use client";
 import { CircleX, MoveRight } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 
 const Banner = () => {
   const [close, setClose] = useState("");
@@ -16,7 +17,13 @@ const Banner = () => {
     >
       <div className="text-xs font-normal flex items-center gap-2 m-auto tracking-wide">
         Book easy site visit. On WhatsApp.{" "}
-        <p className="inline text-blue-600">BOOK NOW</p>{" "}
+        <Link
+          href="https://wa.link/amf5gt"
+          target="_blank"
+          className="inline text-blue-600"
+        >
+          BOOK NOW
+        </Link>{" "}
         <div>
           <MoveRight className="w-5" />
         </div>

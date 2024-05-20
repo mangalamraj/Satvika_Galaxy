@@ -1,5 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 const ContentGalllery = () => {
   return (
@@ -17,10 +18,18 @@ const ContentGalllery = () => {
         </div>
         <div className="md:w-3/4 md:m-auto md:text-6xl text-4xl leading4 font-semibold">
           <div className="m-auto">
-            <p>iPhone.</p>Forged in titanium.
+            <p>Galaxy.</p>Check our constellations.
           </div>
         </div>
-        <div className="ImageGallery"></div>
+        <div className="ImageGallery">
+          <div className="md:w-4/5 md:m-auto pt-4 pb-4">
+            <img src="/three1.png" alt="" />
+          </div>
+          <div className="md:w-4/5 gap-4 flex m-auto overflow-x-hidden">
+            <img src="/three2.png" className="w-1/2"></img>
+            <img src="/three3.png" className="w-1/2"></img>
+          </div>
+        </div>
 
         <div className="md:w-3/4 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
           <div className="">
