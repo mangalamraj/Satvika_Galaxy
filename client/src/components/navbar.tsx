@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="hidden md:block">Icon Tower</div>
 
           <div>
-            <Button className="rounded-3xl text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold text-sm">
+            <Button className="rounded-3xl w-[150px] text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
               Download Brochure
             </Button>
           </div>
