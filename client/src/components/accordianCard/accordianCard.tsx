@@ -100,10 +100,10 @@ const AccordionCard = () => {
                 8271424888/8271423888 and schedule a visit. What types of
                 apartments are available? What is the location and connectivity
                 of the project? Satvika Galaxy is strategically located in
-                Patna, ensuring you're never far from essential services. Just
-                as a galaxy is a connected system of stars, we ensure you're
-                connected to all facets of urban living. Please refer to the map
-                displayed and the brochure for utmost clarity.
+                Patna, ensuring you &quot; re never far from essential services.
+                Just as a galaxy is a connected system of stars, we ensure you
+                &quot; re connected to all facets of urban living. Please refer
+                to the map displayed and the brochure for utmost clarity.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="border-[#424545]">
