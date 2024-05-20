@@ -73,7 +73,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="w-6 flex justify-around ml-auto mt-2">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -111,7 +111,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -132,7 +132,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -149,7 +149,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -187,7 +187,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -225,7 +225,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -263,7 +263,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -301,7 +301,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-8 flex justify-around ml-auto">
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -329,7 +329,7 @@ export default function AmenitiesCarousel() {
                 alt=""
                 width={30}
                 height={30}
-                className="hover:opacity-80 cursor-pointer"
+                className="hover:opacity-100 cursor-pointer opacity-80"
               />
             </div>
             <div className=" absolute bottom-0 right-0 mt-10 mr-1 swiper-button-next">
@@ -338,7 +338,7 @@ export default function AmenitiesCarousel() {
                 alt=""
                 width={30}
                 height={30}
-                className="rotate-180 hover:opacity-80 cursor-pointer"
+                className="rotate-180 hover:opacity-100 cursor-pointer opacity-80"
               />
             </div>
           </div>
