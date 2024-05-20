@@ -73,18 +73,14 @@ const AccordionCard = () => {
               }`}
             >
               <AccordionTrigger
-                className="font-semibold text-xl"
+                className="font-semibold text-xl text-left"
                 onClick={() => toggleAccordion("my-value")}
               >
-                Is it accessible?
+                Is the project RERA registered?
               </AccordionTrigger>
               <AccordionContent>
-                Misplaced your iPhone? The latest Apple Watch models can show
-                you its approximate distance and direction.18 To set up a group
-                photo on your iPhone, join the group and use Apple Watch as a
-                viewfinder to snap the shot. And when you take a call on your
-                Apple Watch, just tap your iPhone to continue the conversation
-                there.
+                Yes, we are RERA approved, RERA no.
+                BRERAP12464-001/194/R-1672/2024
               </AccordionContent>
             </AccordionItem>
             <AccordionItem
@@ -94,32 +90,50 @@ const AccordionCard = () => {
               }`}
             >
               <AccordionTrigger
-                className="font-semibold text-xl"
+                className="font-semibold text-xl text-left"
                 onClick={() => toggleAccordion("my-value")}
               >
-                Is it styled?
+                How can I get a site visit?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. It comes with default styles that matches the other
-                components&apos; aesthetic.
+                We are more than happy to welcome you, contact us at
+                8271424888/8271423888 and schedule a visit. What types of
+                apartments are available? What is the location and connectivity
+                of the project? Satvika Galaxy is strategically located in
+                Patna, ensuring you're never far from essential services. Just
+                as a galaxy is a connected system of stars, we ensure you're
+                connected to all facets of urban living. Please refer to the map
+                displayed and the brochure for utmost clarity.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="border-[#424545]">
-              <AccordionTrigger className="font-semibold text-xl">
-                Is it animated?
+              <AccordionTrigger className="font-semibold text-xl text-left">
+                How can I enquire and get the details?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if
-                you prefer.
+                Contact us at{" "}
+                <p className="inline text-blue-600">8271424888/8271423888</p>,
+                you can email us your queries at satvika.galaxy@gmail.com
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className="border-[#424545]">
-              <AccordionTrigger className="font-semibold text-xl">
-                Is it animated?
+              <AccordionTrigger className="font-semibold text-xl text-left">
+                Available amenities detailed information, please?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if
-                you prefer.
+                There are numerous amenities, some of the highlighted ones are-
+                Gyms, an infinity pool, and gardens. Please go through our
+                brochure for a detailed list of amenities.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5" className="border-[#424545]">
+              <AccordionTrigger className="font-semibold text-xl text-left">
+                Is this a sustainable project?
+              </AccordionTrigger>
+              <AccordionContent>
+                We have tried our best to design the project in a way
+                sustainable manner. We have kept our construction on 20% of the
+                land and the rest is gardens and open areas.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

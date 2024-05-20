@@ -124,9 +124,39 @@ const Highlights = () => {
             className="hover:scale-110 transition-transform"
           />
         </div>
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <img
+            src="/slide6.png"
+            className="hover:scale-110 transition-transform"
+          />
+        </div>
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <img
+            src="/slide7.png"
+            className="hover:scale-110 transition-transform"
+          />
+        </div>
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <img
+            src="/slide8.png"
+            className="hover:scale-110 transition-transform"
+          />
+        </div>
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <img
+            src="/slide9.png"
+            className="hover:scale-110 transition-transform"
+          />
+        </div>
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <img
+            src="/slide10.png"
+            className="hover:scale-110 transition-transform"
+          />
+        </div>
       </div>
       {loaded && instanceRef.current && (
-        <div className="dots mt-10 w-[137px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-80">
+        <div className="dots mt-10 w-[240px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-80">
           {[
             ...Array(instanceRef.current.track.details.slides.length).keys(),
           ].map((idx) => {
