@@ -56,11 +56,11 @@ body {
 }
 
 .number-slide1 {
-    background: rgb(64, 175, 255);
+    background: rgb(255, 255, 255);
     background: linear-gradient(
-        128deg,
-        rgba(64, 175, 255, 1) 0%,
-        rgba(63, 97, 255, 1) 100%
+        0deg,
+        rgba(255, 255, 255, 0) 48%,
+        rgba(0, 0, 0, 1) 100%!
     );
 }
 

@@ -3,6 +3,7 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./styles.css";
 import { useState } from "react";
+import Link from "next/link";
 
 const Highlights = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -58,7 +59,7 @@ const Highlights = () => {
     ],
   );
   return (
-    <div className="bg-[#161617] py-20 md:py-40 bg-opacity-99">
+    <div className="bg-[#161617] py-20 md:pt-40 pb-32 bg-opacity-99">
       <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <h1
           className=" font-semibold text-3xl md:text-4xl text-[#86868b]"
@@ -94,61 +95,96 @@ const Highlights = () => {
         </div>
       </div>
       <div ref={sliderRef} className="keen-slider mx-auto">
-        <div className="keen-slider__slide number-slide1 md:rounded-3xl ">
+        <div className="keen-slider__slide number-slide1 md:rounded-3xl slide1">
+          <div className="absolute z-50 w-[60%] md:w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Gaze upon the sparkling waters of our pools, a true serene feeling.{" "}
+          </div>
           <img
             src="/slide1.png"
-            className="hover:scale-110 transition-transform"
+            className="hover:scale-110 transition-transform "
           />
         </div>
         <div className="keen-slider__slide number-slide2 md:rounded-3xl">
+          <div className="absolute z-50 w-[60%]  md:w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4 ">
+            Ultra Luxury modern apartments with world class amenities.{" "}
+          </div>
           <img
             src="/slide2.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide3 md:rounded-3xl">
+          <div className="absolute z-50 w-[60%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Captivating pool views - not just by the poolside, but on the edge
+            of a serene.{" "}
+          </div>
           <img
             src="/slide3.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Every corner is meticulously designed to reflect the beauty and
+            vastness of the galaxy.{" "}
+          </div>
           <img
             src="/slide4.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Club Satvika Galaxy offers a range of social amenities.{" "}
+          </div>
           <img
             src="/slide5.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Every corner is meticulously designed to reflect the beauty and
+            vastness of the galaxy.{" "}
+          </div>
           <img
             src="/slide6.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4 ">
+            Our range of healthy experiences that meet the taste of every
+            fitness enthusiast.{" "}
+          </div>
           <img
             src="/slide7.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[60%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Enter into exclusive elite lifestyle experience with a grand
+            entrance foyer.{" "}
+          </div>
           <img
             src="/slide8.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Celebrate magnitude of events in a luxurious banquet hall.{" "}
+          </div>
           <img
             src="/slide9.png"
             className="hover:scale-110 transition-transform"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Stay tuned for more news and updates{" "}
+          </div>
           <img
             src="/slide10.png"
             className="hover:scale-110 transition-transform"
@@ -172,6 +208,12 @@ const Highlights = () => {
           })}
         </div>
       )}
+      <div className="text-sm font-medium text-center mt-10 w-[50%] m-auto text-[#86868b]">
+        Step into Satvika Galaxy, Where every home is a shinig star. Located in
+        the heart of, patna this stellar project by{" "}
+        <Link href="https://satvikagroup.in/">SATVIKA GROUP</Link> offers you
+        lifestyle that is out of this world.
+      </div>
     </div>
   );
 };
