@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import Link from "next/link";
+
 const VideoComponent = () => {
   useEffect(() => {
     // Dynamically load the Vimeo player script
@@ -23,7 +24,7 @@ const VideoComponent = () => {
           }}
         >
           <iframe
-            src="https://player.vimeo.com/video/948653095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://player.vimeo.com/video/948662122?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
             style={{
@@ -33,17 +34,14 @@ const VideoComponent = () => {
               width: "100%",
               height: "100%",
             }}
-            title="SATVIKA GALAXY - Epitome of luxurious flats in Patna"
+            title="SATVIKA Galaxy Apartment Trailer | 3BHK, 4BHK Luxurious Flats in Patna"
           ></iframe>
         </div>
       </div>
-      <div className=" text-xs font-medium text-center mt-10 w-full  md:w-[45%] m-auto text-white">
-        Step into Satvika Galaxy, Where every home is a shinig star. Located in
-        the heart of, patna this stellar project by{" "}
-        <Link href="https://satvikagroup.in/" target="_blank">
-          <p className="inline text-blue-600">SATVIKA GROUP</p>
-        </Link>{" "}
-        offers you lifestyle that is out of this world.
+      <div className="text-xs font-medium text-center mt-10 w-full md:w-[45%] m-auto text-white">
+        SATVIKA Galaxy beckons you to embark on a cosmic voyage, where supernova
+        amenities await to dazzle you with unparalleled exclusivity, comfort,
+        and convenience.
       </div>
     </div>
   );
