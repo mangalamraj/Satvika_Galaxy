@@ -24,8 +24,8 @@ const AccordionCard = () => {
   };
   return (
     <div className="bg-[#161617] pt-20  md:pt-40 pb-20 bg-opacity-99">
-      <div className="container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
-        <div className=" flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
+      <div className="md:container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
+        <div className="container md:p-0 flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
           <h1
             className=" font-semibold text-3xl md:text-4xl text-[#86868b]"
             data-aos="fade-up"
