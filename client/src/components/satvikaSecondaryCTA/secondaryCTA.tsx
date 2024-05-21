@@ -4,11 +4,11 @@ const SecondaryCTA = () => {
   return (
     <div className="conatainer py-20 md:py-40 bg-black text-white">
       <div className="md:w-3/4 m-auto">
-        <img
+        <Image
           width={200}
           height={200}
           alt=""
-          src="/IconTower2.svg"
+          src="/Icon10.svg"
           className="pb-10 md:pb-14 m-auto"
         />
         <div className="text-center md:text-6xl text-4xl leading4 font-semibold">
