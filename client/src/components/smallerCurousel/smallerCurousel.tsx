@@ -22,7 +22,7 @@ const SmallerCarousel = () => {
   return (
     <div className=" bg-black py-20 md:py-40 text-white">
       <div className="container">
-        <div className=" md:w-3/4 m-auto md:text-6xl text-4xl leading4 font-semibold">
+        <div className=" md:w-3/4 m-auto md:text-6xl text-3xl leading4 font-semibold">
           Welcome to Satvika Galaxy Apartments.
         </div>
         <div className="md:w-3/4  m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">

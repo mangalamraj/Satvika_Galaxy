@@ -4,7 +4,7 @@ const ZoomSection = () => {
   return (
     <div className="bg-black pt-20">
       <div className="container text-white ">
-        <div className=" md:w-3/4 m-auto md:text-6xl text-4xl leading4 font-semibold">
+        <div className=" md:w-3/4 m-auto md:text-6xl text-3xl leading4 font-semibold">
           Morning balconies glow with tranquil serenity.
         </div>
         <div className="md:w-3/4 m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">
