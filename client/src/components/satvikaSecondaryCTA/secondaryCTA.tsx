@@ -8,7 +8,7 @@ const SecondaryCTA = () => {
           width={200}
           height={200}
           alt=""
-          src="/Icon10.svg"
+          src="/Icon10.png"
           className="pb-10 md:pb-14 m-auto"
         />
         <div className="text-center md:text-6xl text-4xl leading4 font-semibold">
