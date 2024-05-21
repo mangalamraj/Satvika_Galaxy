@@ -88,7 +88,7 @@ const HomeElement = () => {
           <img
             src="/main1.png"
             alt="P111"
-            className="mx-auto 2xl:w-[720px] w-[600px] 2xl:h-auto h-[420px]"
+            className="mx-auto 2xl:w-[720px] w-[600px]"
           />
         </div>
         <motion.div
