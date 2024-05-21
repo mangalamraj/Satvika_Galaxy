@@ -10,7 +10,7 @@ import { Separator } from "@/components/ui/separator";
 
 const FeatureCard = () => {
   return (
-    <div className="bg-[#161617] md:py-40 py-20 bg-opacity-99">
+    <div className="bg-[#161617] md:py-20 py-20 bg-opacity-99">
       <div className="  text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
           <h1
