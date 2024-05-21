@@ -1,7 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./modeToggler";
-import Link from "next/link";
 import Image from "next/image";
 import {
   NavigationMenu,
@@ -15,6 +14,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { useKeenSlider } from "keen-slider/react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -29,9 +29,11 @@ const Navbar = () => {
           <div className="hidden md:block">Icon Tower</div>
 
           <div>
-            <Button className="rounded-3xl w-[150px] text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
-              Download Brochure
-            </Button>
+            <Link href="/brochure.pdf" target="_blank">
+              <Button className="rounded-3xl w-[150px] text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
+                Download Brochure
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
