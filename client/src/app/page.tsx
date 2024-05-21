@@ -14,12 +14,12 @@ import FeatureCsrd from "@/components/featureCard/featureCard";
 import FeatureComponent from "@/components/featureComponent/featureComp";
 import VideoComponent from "@/components/videoComponent/videoComponent";
 import HomeElement from "@/components/home/home";
+import FeatureComponent2 from "@/components/featureCard2/featureCard2";
 
 export default function Home() {
   return (
     <main>
       <HomeElement />
-      <div className="w-full h-2 bg-white"></div>
       <VideoComponent />
       <Highlights />
       <CTA />
@@ -29,7 +29,8 @@ export default function Home() {
       <ZoomSection />
       <SmallerCarousel />
       <AccordionCard />
-      <FeatureCsrd />
+      {/* <FeatureCsrd /> */}
+      <FeatureComponent2 />
       <FeatureComponent />
     </main>
   );

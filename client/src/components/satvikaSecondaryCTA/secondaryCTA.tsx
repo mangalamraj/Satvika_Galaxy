@@ -8,37 +8,41 @@ const SecondaryCTA = () => {
           width={200}
           height={200}
           alt=""
-          src="/Logo3.svg"
+          src="/IconTower.svg"
           className="pb-10 md:pb-14 m-auto"
         />
         <div className="text-center md:text-6xl text-4xl leading4 font-semibold">
-          A17 Pro chip. <p>A monster win for gaming.</p>
+          Icon Tower
+          <p className="text-4xl">Experience Ultimate Urban Luxury</p>
         </div>
-        <div className=" container text-center text-[#86868b] text-2xl font-semibold my-10">
+        <div className=" container text-center text-[#86868b] text-2xl font-semibold mt-5 mb-10">
           It’s here. The biggest redesign in the history of Apple GPUs.
         </div>
+        <div className="container h-[60%] pb-8">
+          <img src="/icon11.png" className="m-auto w-full"></img>
+        </div>
         <div className="container md:flex justify-center gap-20 text-[#86868b]">
-          <div className="flex flex-col gap-2 md:w-[300px] text-base font-semibold">
+          <div className="flex flex-col gap-2 md:w-[400px] text-base font-normal">
             <div className="">
-              A17 Pro is an entirely new class of iPhone chip that delivers our
-              <p className="inline text-white">
-                best graphics performance by far.
+              Experience luxury at Icon Tower, featuring stunning views and{" "}
+              <p className="inline text-white font-semibold">
+                a state-of-the-art helipad.
               </p>
             </div>
             <div className="pb-4">
-              Mobile{" "}
-              <p className="inline text-white">
-                games will look and feel so immersive, with incredibly detailed
-                environments and more realistic characters.
+              Discover{" "}
+              <p className="inline text-white font-semibold">
+                unparalleled luxury at Icon Tower. Enjoy breathtaking views,
+                world-class amenities, and the convenience of a state-of-the-art
+                helipad.
               </p>{" "}
-              And with industry-leading speed and efficiency, A17 Pro takes fast
-              and runs with it.
+              Elevate your lifestyle and arrive in style at Icon Tower. .
             </div>
           </div>
           <div className="text-base font-semibold">
-            <p>New</p>
-            <p className="text-4xl font-semibold text-white">Pro-Glass GPU</p>
-            <p>With Lorem Ipsum</p>
+            <p>Icon Tower:</p>
+            <p className="text-4xl font-semibold text-white">Exquisite</p>
+            <p>Luxury</p>
           </div>
         </div>
       </div>

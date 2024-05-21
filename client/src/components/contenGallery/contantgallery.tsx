@@ -1,11 +1,25 @@
+"use client";
+import { motion, useScroll, useTransform } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
+import { useRef, useEffect } from "react";
 
 const ContentGalllery = () => {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["1 0", "1.33 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
+
   return (
-    <div className="  bg-[#161617] text-white py-20 md:py-40">
-      <div className="container ">
+    <div className="bg-[#161617] text-white py-20 md:py-40">
+      <div className="container">
         <div
           className="font-semibold text-3xl md:text-4xl text-[#86868b] pb-20"
           data-aos="fade-up"
@@ -17,22 +31,35 @@ const ContentGalllery = () => {
           Explore the full story.
         </div>
         <div className="md:w-3/4 md:m-auto md:text-6xl text-4xl leading4 font-semibold">
-          <div className="m-auto">
+          <div className="m-auto pb-2">
             <p>Galaxy.</p>Check our constellations.
           </div>
         </div>
-        <div className="ImageGallery">
-          <div className="md:w-4/5 md:m-auto pt-4 pb-4">
-            <img src="/three1.png" alt="" />
+        <div className="ImageGallery overflow-hidden">
+          <div className="md:w-4/5 md:m-auto pt-4 pb-4 overflow-y-hidden overflow-x-hidden">
+            <motion.div
+              ref={ref}
+              style={{
+                scale: scaleProgress,
+                opacity: scrollYProgress,
+              }}
+            >
+              <img
+                src="/three1.png"
+                alt=""
+                className="w-full overflow-y-hidden"
+              />
+            </motion.div>
           </div>
-          <div className="md:w-4/5 gap-4 flex m-auto overflow-x-hidden">
-            <img src="/three2.png" className="w-1/2"></img>
-            <img src="/three3.png" className="w-1/2"></img>
+          <div className="md:w-4/5 m-auto overflow-hidden mt-4">
+            <div className="flex gap-4 m-auto">
+              <img src="/three2.png" className="w-1/2" alt="" />
+              <img src="/three3.png" className="w-1/2" alt="" />
+            </div>
           </div>
         </div>
-
         <div className="md:w-3/4 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
-          <div className="">
+          <div>
             iPhone 15 Pro is the first iPhone to feature an aerospace‑grade
             titanium design, using the same alloy that spacecraft use for
             missions to Mars.
