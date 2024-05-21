@@ -59,15 +59,15 @@ const ContentGalllery = () => {
           </div>
         </div>
         <div className="md:w-3/4 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
-          <div>
-            iPhone 15 Pro is the first iPhone to feature an aerospace‑grade
-            titanium design, using the same alloy that spacecraft use for
-            missions to Mars.
+          <div className="text-justify tracking-tighter">
+            Discover Satvika Galaxy, a premier residential haven offering
+            state-of-the-art amenities, lush green spaces, and unparalleled
+            comfort in every corner.
           </div>
-          <div>
-            Titanium has one of the best strength‑to‑weight ratios of any metal,
-            making these our lightest Pro models ever. You’ll notice the
-            difference the moment you pick one up.
+          <div className="text-justify tracking-tighter">
+            Experience luxury living at Satvika Galaxy, where modern design
+            meets serene surroundings, creating the perfect blend of elegance
+            and tranquility.
           </div>
         </div>
       </div>

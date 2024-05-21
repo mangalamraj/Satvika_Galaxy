@@ -28,7 +28,7 @@ const HomeElement = () => {
         <div className="span1"></div>
         <div className="w-full flex flex-col gap-5 md:justify-between h-full">
           <div className="flex flex-col gap-6 w-full items-center">
-            <div className="w-66">
+            <div className="md:w-66 w-44">
               <Image
                 src="/gALAXY.svg"
                 width={0}
@@ -86,7 +86,7 @@ const HomeElement = () => {
         </div>
         <div className="absolute  bottom-0  w-full overflow-hidden">
           <img
-            src="/P1.png"
+            src="/main1.png"
             alt="P111"
             className="mx-auto 2xl:w-[720px] w-[600px]"
           />

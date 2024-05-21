@@ -27,7 +27,7 @@ export default function AmenitiesCarousel() {
     <div className="bg-black py-20 md:py-40">
       <div className="container font-semibold text-3xl md:text-4xl text-white">
         <div className="md:w-4/5 m-auto md:text-4xl text-4xl leading4 font-semibold">
-          A camera that captures your wildest imagination.
+          Discover Exceptional Amenities at Satvika Galaxy.
         </div>
       </div>
       <div className="relative pt-10">
