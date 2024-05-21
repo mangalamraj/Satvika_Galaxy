@@ -15,7 +15,7 @@ const SecondaryCTA = () => {
           Icon Tower
           <p className="text-3xl">Experience Ultimate Urban Luxury</p>
         </div>
-        <div className=" container text-center text-[#86868b] text-2xl font-semibold mt-5 mb-10">
+        <div className=" container text-center text-[#86868b] text-xl md:text-2xl font-semibold mt-5 mb-10">
           It’s here. The biggest redesign in the history of Apple GPUs.
         </div>
         <div className="container h-[60%] pb-8">
