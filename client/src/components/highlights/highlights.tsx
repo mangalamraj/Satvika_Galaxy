@@ -10,6 +10,7 @@ const Highlights = () => {
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider(
     {
+      loop: true,
       mode: "free-snap",
       initial: 0,
       slideChanged(slider) {
@@ -27,6 +28,7 @@ const Highlights = () => {
         },
       },
     },
+
     [
       (slider) => {
         let timeout: ReturnType<typeof setTimeout>;
