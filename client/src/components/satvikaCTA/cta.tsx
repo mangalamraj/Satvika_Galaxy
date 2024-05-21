@@ -20,7 +20,7 @@ const CTA = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <div className="font-semibold text-3xl md:text-5xl text-white md:text-center md:w-[80%] m-auto">
+          <div className="font-semibold text-2xl md:text-5xl text-white md:text-center md:w-[80%] m-auto">
             benchmark development that exceeds expectations
           </div>
           <div className="flex flex-col gap-2 md:text-center">

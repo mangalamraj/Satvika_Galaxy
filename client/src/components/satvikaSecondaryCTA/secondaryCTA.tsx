@@ -11,9 +11,9 @@ const SecondaryCTA = () => {
           src="https://mango2.b-cdn.net/icon10.png"
           className="pb-10 md:pb-14 m-auto"
         />
-        <div className="text-center md:text-6xl text-4xl leading4 font-semibold">
+        <div className="container text-center md:text-6xl text-3xl leading4 font-semibold">
           Icon Tower
-          <p className="text-4xl">Experience Ultimate Urban Luxury</p>
+          <p className="text-3xl">Experience Ultimate Urban Luxury</p>
         </div>
         <div className=" container text-center text-[#86868b] text-2xl font-semibold mt-5 mb-10">
           It’s here. The biggest redesign in the history of Apple GPUs.

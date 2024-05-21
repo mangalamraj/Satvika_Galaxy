@@ -30,9 +30,9 @@ const ContentGalllery = () => {
         >
           Explore the full story.
         </div>
-        <div className="md:w-3/4 md:m-auto md:text-6xl text-4xl leading4 font-semibold">
+        <div className="md:w-3/4 md:m-auto md:text-6xl text-3xl leading4 font-semibold">
           <div className="m-auto pb-2">
-            <p>Galaxy.</p>Check our constellations.
+            <p className="inline md:block">Galaxy.</p>Check our constellations.
           </div>
         </div>
         <div className="ImageGallery overflow-hidden">
