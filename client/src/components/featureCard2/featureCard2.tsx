@@ -10,7 +10,7 @@ import "./feature.css";
 
 const FeatureComponent2 = () => {
   return (
-    <div className=" bg-black md:py-40 py-20 bg-opacity-99">
+    <div className=" bg-black md:pt-32 pt-20 md:pb-10 bg-opacity-99">
       <div className="container">
         <Card className="  bg-[#161617] border-0  text-white ">
           <div className="container text-3xl bgimage md:text-5xl font-semibold md:p-20 py-40  m-auto ">
