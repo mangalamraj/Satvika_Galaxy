@@ -8,8 +8,7 @@ const ZoomSection = () => {
           Morning balconies glow with tranquil serenity.
         </div>
         <div className="md:w-3/4 m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">
-          From dramatic framing flexibility to next-generation portraits, see
-          what you can do with our most powerful iPhone camera system.
+          Sunlit Sanctuaries: Morning Bliss at Satvika Galaxy
         </div>
         <div className="relative" style={{ width: "100%", height: "500px" }}>
           {" "}

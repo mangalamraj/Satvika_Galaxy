@@ -8,7 +8,7 @@ const SecondaryCTA = () => {
           width={200}
           height={200}
           alt=""
-          src="/IconTower.svg"
+          src="/IconTower2.svg"
           className="pb-10 md:pb-14 m-auto"
         />
         <div className="text-center md:text-6xl text-4xl leading4 font-semibold">
@@ -19,7 +19,7 @@ const SecondaryCTA = () => {
           It’s here. The biggest redesign in the history of Apple GPUs.
         </div>
         <div className="container h-[60%] pb-8">
-          <img src="/icon11.png" className="m-auto w-full"></img>
+          <img src="/icon1.png" className="m-auto w-full"></img>
         </div>
         <div className="container md:flex justify-center gap-20 text-[#86868b]">
           <div className="flex flex-col gap-2 md:w-[400px] text-base font-normal">
