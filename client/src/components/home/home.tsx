@@ -23,7 +23,7 @@ const HomeElement = () => {
   return (
     <>
       {" "}
-      <div className="relative  bg-black h-[88vh] flex flex-col 2xl:pt-20 pt-10 items-center background overflow-hidden">
+      <div className="relative  bg-black h-[75vh] md:h-[88vh] flex flex-col 2xl:pt-20 pt-10 items-center background overflow-hidden">
         <div className="span1"></div>
         <div className="span1"></div>
         <div className="w-full flex flex-col gap-5 md:justify-between h-full">
