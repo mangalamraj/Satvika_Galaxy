@@ -10,6 +10,7 @@ const SecondaryCTA = () => {
           alt=""
           src="https://mango2.b-cdn.net/icon10.png"
           className="pb-10 md:pb-14 m-auto"
+          id="id"
         />
         <div className="container text-center md:text-6xl text-3xl leading4 font-semibold">
           Icon Tower
