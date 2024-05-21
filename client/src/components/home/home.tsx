@@ -55,7 +55,7 @@ const HomeElement = () => {
           >
             <FloatButton />
           </span>
-          <div className="w-full md:pb-4 pt-28 -z-1">
+          <div className="w-full md:pb-4 pt-12 -z-1">
             <motion.div
               ref={ref}
               className="container md:w-[100%] w-full md:pb-7 pb-3 opacity-75"
