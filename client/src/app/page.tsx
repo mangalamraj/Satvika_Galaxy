@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <HomeElement />
       <div className="w-full h-2 bg-white"></div>
-      {/* <VideoComponent /> */}
+      <VideoComponent />
       <Highlights />
       <CTA />
       <ContentGalllery />
