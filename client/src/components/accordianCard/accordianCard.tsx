@@ -138,11 +138,7 @@ const AccordionCard = () => {
             </AccordionItem>
           </Accordion>
           <div className="p-16">
-            <img
-              src="https://www.apple.com/in/iphone-15-pro/images/overview/ecosystem/airpods__ew23qced7pkm_large_2x.jpg"
-              width={600}
-              height={500}
-            />
+            <img src="/faq.svg" width={600} height={500} />
           </div>
         </Card>
       </div>
