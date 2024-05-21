@@ -25,12 +25,19 @@ const Navbar = () => {
         </div>
 
         <div className=" flex items-center text-white gap-4  ">
-          <div className="hidden md:block">Company Site</div>
-          <div className="hidden md:block">Icon Tower</div>
+          <div className="hidden md:block hover:underline cursor-pointer">
+            Company Site
+          </div>
+          <Link
+            href="#id"
+            className="hidden md:block hover:underline cursor-pointer"
+          >
+            Icon Tower
+          </Link>
 
           <div>
             <Link href="/brochure.pdf" target="_blank">
-              <Button className="rounded-3xl w-[150px] text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
+              <Button className="rounded-3xl  w-[150px] text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
                 Download Brochure
               </Button>
             </Link>
