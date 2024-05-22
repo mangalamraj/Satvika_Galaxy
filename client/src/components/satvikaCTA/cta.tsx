@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const CTA = () => {
   return (
     <main className="relative bg-black text-white py-20 md:py-40 ">
@@ -29,7 +30,13 @@ const CTA = () => {
             </div>
             <div className="text-sm font-medium ">
               Know more about the developers.{" "}
-              <p className="inline text-blue-600">Satvikagroup.in</p>
+              <Link
+                href="https://satvikagroup.in/"
+                className="inline text-blue-600"
+                target="_blank"
+              >
+                Satvikagroup.in
+              </Link>
             </div>
           </div>
           <div className="md:w-[70%] md:m-auto">
@@ -37,7 +44,13 @@ const CTA = () => {
           </div>
           <div className="text-sm font-medium  md:m-auto">
             Explore projects.{" "}
-            <p className="inline text-blue-600">Satvikagroup.in</p>
+            <Link
+              href="https://satvikagroup.in/"
+              className="inline text-blue-600"
+              target="_blank"
+            >
+              Satvikagroup.in
+            </Link>
           </div>
         </div>
       </div>

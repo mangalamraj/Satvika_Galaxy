@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/accordion";
 import { useState } from "react";
 import "./accordian.css";
+import Link from "next/link";
 
 const AccordionCard = () => {
   const [activeAccordion, setActiveAccordion] = useState(null); // State to manage active accordion item
@@ -55,7 +56,14 @@ const AccordionCard = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              Get the Brochure. <p className="inline text-blue-600">Download</p>
+              Get the Brochure.{" "}
+              <Link
+                href="/brochure.pdf"
+                target="_blank"
+                className="inline text-blue-600"
+              >
+                Download
+              </Link>
             </div>
           </div>
         </div>

@@ -92,7 +92,14 @@ const Highlights = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            Get the Brochure. <p className="inline text-blue-600">Download</p>
+            Get the Brochure.{" "}
+            <Link
+              href="/brochure.pdf"
+              target="_blank"
+              className="inline text-blue-600"
+            >
+              Download
+            </Link>
           </div>
         </div>
       </div>
