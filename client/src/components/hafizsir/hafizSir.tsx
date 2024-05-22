@@ -23,7 +23,7 @@ const Hafeez = () => {
               Hafeez Group
               <p className="font-bold text-sm">Hafeez Group</p>
               <p className="text-sm md:text-base pb-4">HAFEEZ GROUP</p>
-              <div className="text-base md:font-semibold font-semibold text-justify md:leading-tight leading-none">
+              <div className="text-sm md:text-base md:font-semibold font-semibold text-justify md:leading-tight leading-none">
                 We believe a home is where dreams take root. Satvika Galaxy is
                 designed with your comfort and well-being in mind, featuring
                 top-notch amenities and serene spaces to elevate your living
