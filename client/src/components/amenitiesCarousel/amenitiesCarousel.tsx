@@ -24,7 +24,7 @@ import Image from "next/image";
 
 export default function AmenitiesCarousel() {
   return (
-    <div className="bg-black py-20 md:py-40">
+    <div className="bg-black py-20 md:py-20">
       <div className="container font-semibold text-3xl md:text-4xl text-white">
         <div className="md:w-4/5 m-auto md:text-4xl text-3xl leading4 font-semibold">
           Discover Exceptional Amenities at Satvika Galaxy.
