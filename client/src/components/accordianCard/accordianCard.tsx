@@ -35,7 +35,7 @@ const AccordionCard = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            Get the highlights
+            FAQs
           </h1>
           <div className="flex  md:gap-5 flex-col gap-2  md:flex-row md:items-center">
             <div
@@ -67,7 +67,7 @@ const AccordionCard = () => {
             </div>
           </div>
         </div>
-        <Card className="px-8 py-8 bg-black border-0  text-white  md:rounded-3xl flex flex-col md:flex-row">
+        <Card className="px-8 py-8 bg-black border-0  text-white  md:rounded-3xl flex flex-col xl:flex-row">
           <Accordion
             type="single"
             collapsible
