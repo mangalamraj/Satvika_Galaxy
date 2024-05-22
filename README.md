@@ -1,2 +1,2 @@
-# Satvika_revamp
+# Satvika_Galaxy
 
