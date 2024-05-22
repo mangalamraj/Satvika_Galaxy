@@ -28,7 +28,7 @@ const HomeElement = () => {
         <div className="span1"></div>
         <div className="w-full flex flex-col gap-5 md:justify-between h-full">
           <div className="flex flex-col gap-6 w-full items-center">
-            <div className="md:w-66 w-44">
+            <div className="md:w-64 w-44">
               <Image
                 src="/gALAXY.svg"
                 width={0}

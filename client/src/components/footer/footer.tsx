@@ -49,7 +49,6 @@ const Footer = () => {
                     B-231, Ground Floor, Sahdeo Mahto Marg, S.K. Puri, Boaring
                     Road, Patna - 800001
                   </p>
-                  <p>+91 87095 95001</p>
                 </div>
                 <div className="s_tags">
                   {/* <span>
@@ -91,38 +90,50 @@ const Footer = () => {
 
               <div className="link-row">
                 <div className="footer-header_sub">
-                  <h3>Our Services</h3>
+                  <h3>Company</h3>
                 </div>
 
                 <div className="link-des">
-                  <a href="#" className="footer-links">
-                    Orthopaedics
+                  <a href="#amenities" className="footer-links">
+                    Amenities
+                  </a>
+                  <a href="#id" className="footer-links">
+                    Icon Tower
+                  </a>
+                  <a href="#rera" className="footer-links">
+                    Rera
+                  </a>
+                  <a href="#video" className="footer-links">
+                    About Architecture
                   </a>
                   <a href="#" className="footer-links">
-                    Spine Surgery
-                  </a>
-                  <a href="#" className="footer-links">
-                    Cardiology
-                  </a>
-                  <a href="#" className="footer-links">
-                    Robotic Surgery
+                    About Company
                   </a>
                 </div>
               </div>
             </div>
             <div className="col_sub3">
               <div className="link-row">
-                <div className="footer-header_sub">
-                  <h3>Active Hours</h3>
+                <div className="">
+                  <h3 style={{ color: "gray" }}>Call Us</h3>
+                  <div>
+                    <a href="#" className="footer-links text-2xl">
+                      8271 42 4888
+                    </a>
+                    <div>
+                      <a href="#" className="footer-links text-2xl">
+                        8271 42 4888
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="footer-links pt-4">
+                  <h3 style={{ color: "gray" }}>Active Hours</h3>
                 </div>
 
                 <div className="link-des">
-                  <a href="#" className="footer-links">
-                    Mon - Sat 24hr
-                  </a>
-                  <a href="#" className="footer-links">
-                    Sunday - Closed
-                  </a>
+                  9:00AM - 7:00PM <br />
+                  All Week days except Sunday
                 </div>
               </div>
             </div>

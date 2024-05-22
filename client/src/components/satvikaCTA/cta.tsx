@@ -21,7 +21,7 @@ const CTA = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <div className="font-semibold text-2xl md:text-5xl text-white md:text-center md:w-[80%] m-auto">
+          <div className="font-semibold text-2xl md:text-5xl text-white text-center md:w-[80%] m-auto">
             benchmark development that exceeds expectations
           </div>
           <div className="flex flex-col gap-2 md:text-center">
@@ -42,15 +42,10 @@ const CTA = () => {
           <div className="md:w-[70%] md:m-auto">
             <img src="/Hands.png" className="w-full md:h-[450px]" />
           </div>
-          <div className="text-sm font-medium  md:m-auto">
-            Explore projects.{" "}
-            <Link
-              href="https://satvikagroup.in/"
-              className="inline text-blue-600"
-              target="_blank"
-            >
-              Satvikagroup.in
-            </Link>
+          <div className=" md:p-0 w-full flex justify-center align-middle items-center">
+            <img src="/4.1.svg" className="w-1/4 m-auto" />
+            <img src="/4.2.svg" className="w-1/4 m-auto" />
+            <img src="/4.3.svg" className="w-1/4 m-auto" />
           </div>
         </div>
       </div>

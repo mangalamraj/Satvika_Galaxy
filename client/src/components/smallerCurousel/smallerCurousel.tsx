@@ -25,7 +25,10 @@ const SmallerCarousel = () => {
         <div className=" md:w-3/4 m-auto md:text-6xl text-3xl leading4 font-semibold">
           Welcome to Satvika Galaxy Apartments.
         </div>
-        <div className="md:w-3/4  m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">
+        <div
+          className="md:w-3/4  m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10"
+          id="amenities"
+        >
           Discover Unmatched Comfort and Luxury: Experience Stellar Living at
           Satvika Galaxy Apartments
         </div>
@@ -43,26 +46,66 @@ const SmallerCarousel = () => {
           className=" max-w-full ml-auto"
         >
           <CarouselContent>
-            {Array.from({ length: 5 }).map((_, index) => (
-              <CarouselItem
-                key={index}
-                className="md:basis-1/2 lg:basis-1/3 pl-1"
-              >
-                <div className="p-1">
-                  <div>
-                    <img
-                      src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens1__brxt4ho5qkeu_large_2x.jpg"
-                      width={600}
-                      height={500}
-                      alt=""
-                    />
-                  </div>
-                  <div className="p-2 text-center">
-                    Benchmark development that exceeds exptectations
-                  </div>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-1">
+              <div className="p-1">
+                <div>
+                  <img src="/e1.png" width={600} height={500} alt="" />
                 </div>
-              </CarouselItem>
-            ))}
+                <div className="p-2 text-center">
+                  Benchmark development that exceeds exptectations
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-1">
+              <div className="p-1">
+                <div>
+                  <img src="e2.png" width={600} height={500} alt="" />
+                </div>
+                <div className="p-2 text-center">
+                  Benchmark development that exceeds exptectations
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-1">
+              <div className="p-1">
+                <div>
+                  <img src="e3.png" width={600} height={500} alt="" />
+                </div>
+                <div className="p-2 text-center">
+                  Benchmark development that exceeds exptectations
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-1">
+              <div className="p-1">
+                <div>
+                  <img src="e4.png" width={600} height={500} alt="" />
+                </div>
+                <div className="p-2 text-center">
+                  Benchmark development that exceeds exptectations
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-1">
+              <div className="p-1">
+                <div>
+                  <img src="e5.png" width={600} height={500} alt="" />
+                </div>
+                <div className="p-2 text-center">
+                  Benchmark development that exceeds exptectations
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-1">
+              <div className="p-1">
+                <div>
+                  <img src="e6.png" width={600} height={500} alt="" />
+                </div>
+                <div className="p-2 text-center">
+                  Benchmark development that exceeds exptectations
+                </div>
+              </div>
+            </CarouselItem>
           </CarouselContent>
           <div className="hidden md:block">
             <CarouselPrevious className="text-white bg-black" />

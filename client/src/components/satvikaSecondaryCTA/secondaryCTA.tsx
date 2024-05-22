@@ -13,7 +13,6 @@ const SecondaryCTA = () => {
           id="id"
         />
         <div className="container text-center md:text-6xl text-3xl leading4 font-semibold">
-          Icon Tower
           <p className="text-3xl">Experience Ultimate Urban Luxury</p>
         </div>
         <div className=" container text-center text-[#86868b] text-xl md:text-2xl font-semibold mt-5 mb-10">
@@ -23,7 +22,7 @@ const SecondaryCTA = () => {
           <img src="/icon1.png" className="m-auto w-full"></img>
         </div>
         <div className="container md:flex justify-center gap-20 text-[#86868b]">
-          <div className="flex flex-col gap-2 md:w-[400px] text-base font-normal">
+          <div className="flex flex-col gap-2  text-base font-normal">
             <div className="">
               Experience luxury at Icon Tower, featuring stunning views and{" "}
               <p className="inline text-white font-semibold">

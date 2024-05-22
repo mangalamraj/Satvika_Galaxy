@@ -16,7 +16,7 @@ const VideoComponent = () => {
 
   return (
     <div className="bg-[#161617]">
-      <div className="relative bg-black">
+      <div className="relative bg-black" id="video">
         <div
           style={{
             padding: "56.25% 0 0 0",
@@ -38,7 +38,7 @@ const VideoComponent = () => {
           ></iframe>
         </div>
       </div>
-      <div className="container md:p-0 text-xs font-medium text-center mt-10 w-full md:w-[45%] m-auto text-white">
+      <div className="container text-[#86868b] md:p-0 text-xs font-medium text-center mt-10 w-full md:w-[45%] m-auto">
         SATVIKA Galaxy beckons you to embark on a cosmic voyage, where supernova
         amenities await to dazzle you with unparalleled exclusivity, comfort,
         and convenience.
