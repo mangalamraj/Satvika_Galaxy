@@ -17,7 +17,7 @@ const SecondaryCTA = () => {
           <p className="text-3xl">Experience Ultimate Urban Luxury</p>
         </div>
         <div className=" container text-center text-[#86868b] text-xl md:text-2xl font-semibold mt-5 mb-10">
-          It’s here. The biggest redesign in the history of Apple GPUs.
+          Lush green spaces, and unparalleled comfort in every corner.
         </div>
         <div className="container h-[60%] pb-8">
           <img src="/icon1.png" className="m-auto w-full"></img>
