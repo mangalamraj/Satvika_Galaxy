@@ -70,19 +70,39 @@ const Footer = () => {
                   <h3>Quick Links</h3>
                 </div>
                 <div className="link-des">
-                  <a href="#" className="footer-links">
+                  <a
+                    href="https://satvikagroup.in"
+                    className="footer-links"
+                    target="_blank"
+                  >
                     Home
                   </a>
-                  <a href="#" className="footer-links">
+                  <a
+                    href="https://satvikagroup.in/about-satvika"
+                    className="footer-links"
+                    target="_blank"
+                  >
                     About Us
                   </a>
-                  <a href="#" className="footer-links">
+                  <a
+                    href="https://satvikagroup.in/projects2"
+                    className="footer-links"
+                    target="_blank"
+                  >
+                    Our Projects
+                  </a>
+                  <a
+                    href="https://satvikagroup.in/about-satvika"
+                    className="footer-links"
+                    target="_blank"
+                  >
                     Our Mission
                   </a>
-                  <a href="#" className="footer-links">
-                    Galary
-                  </a>
-                  <a href="#" className="footer-links">
+                  <a
+                    href="https://satvikagroup.in/contact"
+                    className="footer-links"
+                    target="_blank"
+                  >
                     Contact Us
                   </a>
                 </div>
@@ -100,8 +120,8 @@ const Footer = () => {
                   <a href="#id" className="footer-links">
                     Icon Tower
                   </a>
-                  <a href="#rera" className="footer-links">
-                    Rera
+                  <a href="#testomonials" className="footer-links">
+                    Team
                   </a>
                   <a href="#video" className="footer-links">
                     About Architecture
@@ -117,13 +137,9 @@ const Footer = () => {
                 <div className="">
                   <h3 style={{ color: "gray" }}>Call Us</h3>
                   <div>
-                    <a href="#" className="footer-links text-2xl">
-                      8271 42 4888
-                    </a>
+                    <div className="footer-links text-2xl">8271 42 4888</div>
                     <div>
-                      <a href="#" className="footer-links text-2xl">
-                        8271 42 4888
-                      </a>
+                      <div className="footer-links text-2xl">8271 42 4888</div>
                     </div>
                   </div>
                 </div>
@@ -145,11 +161,10 @@ const Footer = () => {
           </div>
           <div className="para_disc">
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et corrupti quos dolores
+              Satvika Galaxy is a project by SATVIKA. This website is developed
+              by Polardot. All information is subject to change and is for
+              reference only. Verify all details with authorized representatives
+              before making any decisions.
             </p>
           </div>
         </div>
@@ -159,7 +174,7 @@ const Footer = () => {
 
           <div className="col-12">
             <span className="copyright">
-              ©Copyright 2023-2026 Satvika Group. All Rights Reserved |
+              ©Copyright 2024-2026 Satvika Group. All Rights Reserved |
               Designed with Polardot.in
             </span>
           </div>

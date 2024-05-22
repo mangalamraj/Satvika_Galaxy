@@ -11,10 +11,11 @@ import SmallerCarousel from "@/components/smallerCurousel/smallerCurousel";
 import AccordionCard from "@/components/accordianCard/accordianCard";
 import AmenitiesCarousel from "@/components/amenitiesCarousel/amenitiesCarousel";
 import FeatureCsrd from "@/components/featureCard/featureCard";
-import FeatureComponent from "@/components/featureComponent/featureComp";
 import VideoComponent from "@/components/videoComponent/videoComponent";
 import HomeElement from "@/components/home/home";
 import FeatureComponent2 from "@/components/featureCard2/featureCard2";
+import SubodhSir from "@/components/subodhsir/subodhsir";
+import Hafeez from "@/components/hafizsir/hafizSir";
 
 export default function Home() {
   return (
@@ -31,8 +32,9 @@ export default function Home() {
       <SmallerCarousel />
       <AccordionCard />
       {/* <FeatureCsrd /> */}
-      <FeatureComponent2 />
-      <FeatureComponent />
+      <SubodhSir />
+      <Hafeez />
+      {/* <FeatureComponent2 /> */}
     </main>
   );
 }
