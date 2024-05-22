@@ -20,7 +20,7 @@ const SmallerCarousel = () => {
     Autoplay({ delay: 2000, stopOnInteraction: true }),
   );
   return (
-    <div className=" bg-black py-20 md:py-40 text-white">
+    <div className=" bg-black py-10 md:py-40 text-white">
       <div className="container">
         <div className=" md:w-3/4 m-auto md:text-6xl text-3xl leading4 font-semibold">
           Welcome to Satvika Galaxy Apartments.

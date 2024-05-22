@@ -2,7 +2,7 @@ import * as React from "react";
 import Image from "next/image";
 const ZoomSection = () => {
   return (
-    <div className="bg-black pt-20">
+    <div className="bg-black pt-10">
       <div className="container text-white ">
         <div className=" md:w-3/4 m-auto md:text-6xl text-3xl leading4 font-semibold">
           Morning balconies glow with tranquil serenity.
