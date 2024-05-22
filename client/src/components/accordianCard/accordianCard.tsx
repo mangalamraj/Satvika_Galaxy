@@ -105,13 +105,10 @@ const AccordionCard = () => {
               </AccordionTrigger>
               <AccordionContent>
                 We are more than happy to welcome you, contact us at
-                8271424888/8271423888 and schedule a visit. What types of
-                apartments are available? What is the location and connectivity
-                of the project? Satvika Galaxy is strategically located in
-                Patna, ensuring you &quot; re never far from essential services.
-                Just as a galaxy is a connected system of stars, we ensure you
-                &quot; re connected to all facets of urban living. Please refer
-                to the map displayed and the brochure for utmost clarity.
+                <p className="inline text-blue-600">
+                  8271424888/8271423888
+                </p>{" "}
+                and schedule a visit.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="border-[#424545]">
@@ -122,6 +119,18 @@ const AccordionCard = () => {
                 Contact us at{" "}
                 <p className="inline text-blue-600">8271424888/8271423888</p>,
                 you can email us your queries at satvika.galaxy@gmail.com
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3" className="border-[#424545]">
+              <AccordionTrigger className="font-semibold text-xl text-left">
+                What is the location and connectivity of the project?
+              </AccordionTrigger>
+              <AccordionContent>
+                Satvika Galaxy is strategically located in Patna, ensuring youre
+                never far from essential services. Just as a galaxy is a
+                connected system of stars, we ensure youre connected to all
+                facets of urban living. Please refer to the map displayed and
+                the brochure for utmost clarity.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className="border-[#424545]">
@@ -145,7 +154,7 @@ const AccordionCard = () => {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          <div className="p-16">
+          <div className="p-16 md:pt-24">
             <img src="/faq.svg" width={600} height={500} />
           </div>
         </Card>

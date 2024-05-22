@@ -58,7 +58,7 @@ const ContentGalllery = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-3/4 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
+        <div className="md:w-4/5 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
           <div className="text-justify tracking-tighter">
             Discover Satvika Galaxy, a premier residential haven offering
             state-of-the-art amenities, lush green spaces, and unparalleled

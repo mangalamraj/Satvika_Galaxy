@@ -25,9 +25,12 @@ const Navbar = () => {
         </div>
 
         <div className=" flex items-center text-white gap-4  ">
-          <div className="hidden md:block hover:underline cursor-pointer">
+          <Link
+            href="https://satvikagroup.in"
+            className="hidden md:block hover:underline cursor-pointer"
+          >
             Company Site
-          </div>
+          </Link>
           <Link
             href="#id"
             className="hidden md:block hover:underline cursor-pointer"

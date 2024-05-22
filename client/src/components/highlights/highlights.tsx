@@ -156,39 +156,40 @@ const Highlights = () => {
             Every corner is meticulously designed to reflect the beauty and
             vastness of the galaxy.{" "}
           </div>
-          <img
-            src="/slide6.png"
-            className="hover:scale-110 transition-transform"
-          />
+          <img src="/6.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4 ">
             Our range of healthy experiences that meet the taste of every
             fitness enthusiast.{" "}
           </div>
-          <img
-            src="/slide7.png"
-            className="hover:scale-110 transition-transform"
-          />
+          <img src="/7.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[60%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
             Enter into exclusive elite lifestyle experience with a grand
             entrance foyer.{" "}
           </div>
-          <img
-            src="/slide8.png"
-            className="hover:scale-110 transition-transform"
-          />
+          <img src="/11.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
             Celebrate magnitude of events in a luxurious banquet hall.{" "}
           </div>
-          <img
-            src="/slide9.png"
-            className="hover:scale-110 transition-transform"
-          />
+          <img src="/12.png" className="hover:scale-110 transition-transform" />
+        </div>
+
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Stay tuned for more news and updates{" "}
+          </div>
+          <img src="/13.png" className="hover:scale-110 transition-transform" />
+        </div>
+        <div className="keen-slider__slide number-slide4 md:rounded-3xl">
+          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+            Stay tuned for more news and updates{" "}
+          </div>
+          <img src="/14.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
@@ -201,7 +202,7 @@ const Highlights = () => {
         </div>
       </div>
       {loaded && instanceRef.current && (
-        <div className="dots mt-10 w-[240px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-80">
+        <div className="dots mt-10 w-[300px] bg-[#424545] m-auto rounded-3xl min-h-[50px] items-center bg-opacity-80">
           {[
             ...Array(instanceRef.current.track.details.slides.length).keys(),
           ].map((idx) => {
