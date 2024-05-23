@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const Downloads = () => {
   return (
-    <div className="conatainer pb-10 md:py-20 bg-black text-white" id="id">
+    <div className="conatainer pb-20 md:py-20 bg-black text-white" id="id">
       <div className="md:w-3/4 m-auto">
         <img
           width={300}
