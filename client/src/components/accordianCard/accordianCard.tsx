@@ -24,7 +24,7 @@ const AccordionCard = () => {
     setActiveAccordion(activeAccordion === value ? null : value); // Toggle accordion state
   };
   return (
-    <div className="bg-[#161617] pt-20  md:pt-40 pb-20 bg-opacity-99">
+    <div className="bg-[#161617] pt-20  md:pt-40 pb-10 bg-opacity-99">
       <div className="md:container  text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <div className="container md:p-0 flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
           <h1
