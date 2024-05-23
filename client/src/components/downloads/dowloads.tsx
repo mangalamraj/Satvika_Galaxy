@@ -20,13 +20,13 @@ const Downloads = () => {
         </div>
         <div className="container md:w-[80%] w-full flex justify-center md:gap-10 gap-2 flex-col md:flex-row">
           <Button className="rounded-3xl   text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
-            <Link href="/brochure.pdf" target="_blank">
+            <Link href="/floorplans.pdf" target="_blank">
               Floorplans
             </Link>
           </Button>
 
           <Button className="rounded-3xl   text-xs  md:w-full text-white bg-[#135de8] hover:bg-white hover:text-black font-semibold md:text-sm">
-            <Link href="/brochure.pdf" target="_blank">
+            <Link href="/specification.pdf" target="_blank">
               Specifications
             </Link>
           </Button>
