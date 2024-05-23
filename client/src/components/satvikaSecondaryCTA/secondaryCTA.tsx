@@ -42,15 +42,19 @@ const SecondaryCTA = () => {
               </p>
             </div>
           </div>
-          <div className="container md:px-0 flex md:block justify-between pt-6 md:pt-0">
+          <div className=" md:px-0 flex md:block gap-8 pt-6 md:pt-0">
             <div className="text-base font-semibold md:pb-16">
               <p>Icon Tower</p>
-              <p className="text-4xl font-semibold text-white">Rooftop</p>
+              <p className="text-3xl md:text-4xl font-semibold text-white">
+                Rooftop
+              </p>
               <p>Lounge</p>
             </div>
             <div className="text-base font-semibold ">
               <p>Skyline with</p>
-              <p className="text-4xl font-semibold text-white">Unparelleled </p>
+              <p className="text-3xl md:text-4xl font-semibold text-white">
+                Unparelleled{" "}
+              </p>
               <p>View</p>
             </div>
           </div>
