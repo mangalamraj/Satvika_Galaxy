@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./footer.css";
-
+import Link from "next/link";
+import { MapPin } from "lucide-react";
 // import { AiOutlineInstagram } from "react-icons/ai";
 // import { AiOutlineTwitter } from "react-icons/ai";
 // import { BsFacebook } from "react-icons/bs";
@@ -49,6 +50,26 @@ const Footer = () => {
                     B-231, Ground Floor, Sahdeo Mahto Marg, S.K. Puri, Boaring
                     Road, Patna - 800001
                   </p>
+                  <h3>Mail</h3>
+                  <h3 className="text-white">
+                    <Link
+                      className="text-white"
+                      href="mailto:satvika.galaxy@gmail.com"
+                    >
+                      satvika.galaxy@gmail.com
+                    </Link>
+                  </h3>
+                  <p></p>
+                  <p>
+                    <Link
+                      href="https://maps.app.goo.gl/eBSiWyGTJZC73qTb8"
+                      className="hover:underline flex gap-2 items-center"
+                      target="_blank"
+                    >
+                      <MapPin />
+                      Open in maps
+                    </Link>
+                  </p>
                 </div>
                 <div className="s_tags">
                   {/* <span>
@@ -67,7 +88,7 @@ const Footer = () => {
             <div className="col_sub2">
               <div className="link-row">
                 <div className="footer-header_sub">
-                  <h3>Quick Links</h3>
+                  <h3>Main Site</h3>
                 </div>
                 <div className="link-des">
                   <a
@@ -110,24 +131,24 @@ const Footer = () => {
 
               <div className="link-row">
                 <div className="footer-header_sub">
-                  <h3>Company</h3>
+                  <h3>Quick Links</h3>
                 </div>
 
                 <div className="link-des">
-                  <a href="#amenities" className="footer-links">
-                    Amenities
+                  <a href="#testomonials" className="footer-links">
+                    Director&apos;s Message
+                  </a>
+                  <a href="#video" className="footer-links">
+                    Project Architect
+                  </a>
+                  <a href="#" className="footer-links">
+                    About Company
                   </a>
                   <a href="#id" className="footer-links">
                     Icon Tower
                   </a>
-                  <a href="#testomonials" className="footer-links">
-                    Team
-                  </a>
-                  <a href="#video" className="footer-links">
-                    About Architecture
-                  </a>
-                  <a href="#" className="footer-links">
-                    About Company
+                  <a href="#amenities" className="footer-links">
+                    Amenities
                   </a>
                 </div>
               </div>
@@ -161,10 +182,17 @@ const Footer = () => {
           </div>
           <div className="para_disc">
             <p>
-              Satvika Galaxy is a project by SATVIKA. This website is developed
-              by Polardot. All information is subject to change and is for
-              reference only. Verify all details with authorized representatives
-              before making any decisions.
+              Information on this website may change without notice. We are not
+              liable for any inaccuracies, omissions, or alterations. Users
+              should verify details independently. This website is designed by{" "}
+              <Link
+                href="https://www.polardot.in"
+                target="_blank"
+                className="text-[#fd7028]"
+              >
+                Polardot.in.
+              </Link>{" "}
+              ©️ 2024. All rights reserved.
             </p>
           </div>
         </div>

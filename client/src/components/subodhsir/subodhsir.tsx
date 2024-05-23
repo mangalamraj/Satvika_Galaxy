@@ -8,9 +8,9 @@ import {
 } from "@/components/ui/card";
 const SubodhSir = () => {
   return (
-    <div className=" bg-black md:py-[120px]  py-20 bg-opacity-99">
+    <div className=" bg-black md:py-[100px] pb-10 pt-[120px] bg-opacity-99">
       <div className="container" id="testomonials">
-        <Card className="flex gap-4 flex-col xl:flex-row border-0  text-white  md:p-20 p-8 py-10">
+        {/* <Card className="flex gap-4 flex-col xl:flex-row border-0  text-white  md:p-20 p-8 py-10">
           <div className="md:w-1/2">
             <img src="subodhsir.png" className="w-[350px] h-[400px]" />
           </div>
@@ -39,7 +39,8 @@ const SubodhSir = () => {
               </div>
             </div>
           </div>
-        </Card>
+        </Card> */}
+        <img src="/Subodh_Sir.png" />
       </div>
     </div>
   );
