@@ -62,7 +62,7 @@ const SmallerCarousel = () => {
                   <img src="e2.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Luxurious banquet for all your events and fucnt.ions
+                  Luxurious banquet for all your events and fucntions
                 </div>
               </div>
             </CarouselItem>
