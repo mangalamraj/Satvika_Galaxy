@@ -67,7 +67,11 @@ export default function AmenitiesCarousel() {
               <div className="w-[70%] text-xl font-semibold text-left">
                 Kids Play Area
               </div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                A vibrant, safe play space with swings, slides, climbing frames,
+                and soft zones, supervised for children&apos;s fun and parents
+                peace.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="w-6 flex justify-around ml-auto mt-2">
@@ -100,7 +104,11 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">Spa</div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                A luxurious sanctuary offering massages, facials, and body
+                treatments by skilled therapists using premium products for
+                holistic rejuvenation.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -135,7 +143,10 @@ export default function AmenitiesCarousel() {
               <div className="w-[70%] text-xl font-semibold text-left">
                 Swimming Pool
               </div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                A sparkling, temperature-controlled pool perfect for laps and
+                leisure, featuring lounge chairs, a sundeck, and stunning views.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -170,7 +181,11 @@ export default function AmenitiesCarousel() {
               <div className="w-[70%] text-xl font-semibold text-left">
                 Shower Area
               </div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                Modern shower facilities equipped with high-quality fixtures,
+                spacious changing rooms, and lockers for post-gym or pool
+                refreshment.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -203,7 +218,11 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">Gym</div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                A state-of-the-art fitness center with advanced equipment,
+                personal trainers, and dedicated areas for cardio, strength
+                training, and yoga.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -238,7 +257,11 @@ export default function AmenitiesCarousel() {
               <div className="w-[70%] text-xl font-semibold text-left">
                 Meeting Room
               </div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                A professional, well-equipped meeting space with high-speed
+                internet, audio-visual aids, and comfortable seating for
+                productive gatherings.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -273,7 +296,11 @@ export default function AmenitiesCarousel() {
               <div className="w-[70%] text-xl font-semibold text-left">
                 Guest House
               </div>
-              <div className="w-[100%] text-sm text-left pt-2"></div>
+              <div className="w-[100%] text-sm text-left pt-2">
+                Elegantly furnished guest accommodations offering comfort and ,
+                ideal for visitors, featuring all necessary amenities for a
+                pleasant stay.
+              </div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
