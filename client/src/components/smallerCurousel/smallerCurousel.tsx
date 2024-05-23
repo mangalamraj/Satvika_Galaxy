@@ -52,7 +52,7 @@ const SmallerCarousel = () => {
                   <img src="/e1.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Benchmark development that exceeds exptectations
+                  Reception that welcomes you with utmost care.
                 </div>
               </div>
             </CarouselItem>
@@ -62,7 +62,7 @@ const SmallerCarousel = () => {
                   <img src="e2.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Benchmark development that exceeds exptectations
+                  Luxurious banquet for all your events and fucnt.ions
                 </div>
               </div>
             </CarouselItem>
@@ -72,7 +72,7 @@ const SmallerCarousel = () => {
                   <img src="e3.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Benchmark development that exceeds exptectations
+                  ⁠⁠Basket ball court for your evening drills.
                 </div>
               </div>
             </CarouselItem>
@@ -82,7 +82,7 @@ const SmallerCarousel = () => {
                   <img src="e4.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Benchmark development that exceeds exptectations
+                  ⁠⁠Modern gym for the healthy lifestyle.
                 </div>
               </div>
             </CarouselItem>
@@ -92,7 +92,7 @@ const SmallerCarousel = () => {
                   <img src="e5.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Benchmark development that exceeds exptectations
+                  Celestrial Pool for a chill summer days.
                 </div>
               </div>
             </CarouselItem>
@@ -102,7 +102,7 @@ const SmallerCarousel = () => {
                   <img src="e6.png" width={600} height={500} alt="" />
                 </div>
                 <div className="p-2 text-center">
-                  Benchmark development that exceeds exptectations
+                  Modern and luxurious interiors.
                 </div>
               </div>
             </CarouselItem>
