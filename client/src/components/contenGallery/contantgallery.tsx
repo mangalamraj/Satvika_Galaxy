@@ -30,9 +30,10 @@ const ContentGalllery = () => {
         >
           Explore the full story.
         </div>
-        <div className="md:w-3/4 md:m-auto md:text-6xl text-3xl leading4 font-semibold">
-          <div className="m-auto pb-2">
-            <p className="inline md:block">Galaxy.</p>Check our constellations.
+        <div className="md:w-4/5 md:m-auto md:text-5xl text-3xl leading4 font-semibold">
+          <div className="pb-8">
+            <p className="inline md:block">Galaxy.</p>A skyline of
+            constellations.
           </div>
         </div>
         <div className="ImageGallery overflow-hidden">
@@ -60,15 +61,18 @@ const ContentGalllery = () => {
         </div>
         <div className="md:w-4/5 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
           <div className="text-justify tracking-tighter">
-            Discover Satvika Galaxy, a premier residential haven offering
-            state-of-the-art amenities, lush green spaces, and unparalleled
-            comfort in every corner.
+            Satvika Galaxy, Patna &apos; s benchmark in residential projects.
+            Offering luxury flats with modern amenities, this premier
+            development redefines sophisticated urban living and shaping a new.
+            Experience unparalleled comfort, state-of-the-art facilities, and a
+            vibrant community in the heart of the city. Discover your dream home
+            at Satvika Galaxy.
           </div>
-          <div className="text-justify tracking-tighter">
+          {/* <div className="text-justify tracking-tighter">
             Experience luxury living at Satvika Galaxy, where modern design
             meets serene surroundings, creating the perfect blend of elegance
             and tranquility.
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

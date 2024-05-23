@@ -16,6 +16,7 @@ const ZoomSection = () => {
           <Image src="/lizard.jpg" alt="" layout="fill" objectFit="contain" />
         </div>
       </div>
+      <div className="m-auto md:w-[50%] w-[90%] h-[0.75px] bg-white opacity-20 mt-40 "></div>
     </div>
   );
 };

@@ -105,7 +105,7 @@ const Highlights = () => {
       </div>
       <div ref={sliderRef} className="keen-slider mx-auto">
         <div className="keen-slider__slide number-slide1 md:rounded-3xl slide1">
-          <div className="absolute z-50 w-[60%] md:w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+          <div className="absolute z-50 w-[70%] md:w-[50%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Gaze upon the sparkling waters of our pools, a true serene feeling.{" "}
           </div>
           <img
@@ -114,7 +114,7 @@ const Highlights = () => {
           />
         </div>
         <div className="keen-slider__slide number-slide2 md:rounded-3xl">
-          <div className="absolute z-50 w-[60%]  md:w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4 ">
+          <div className="absolute z-50 w-[70%]  md:w-[50%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4 ">
             Ultra Luxury modern apartments with world class amenities.{" "}
           </div>
           <img
@@ -123,7 +123,7 @@ const Highlights = () => {
           />
         </div>
         <div className="keen-slider__slide number-slide3 md:rounded-3xl">
-          <div className="absolute z-50 w-[60%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+          <div className="absolute z-50 w-[70%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Captivating pool views - not just by the poolside, but on the edge
             of a serene.{" "}
           </div>
@@ -133,7 +133,7 @@ const Highlights = () => {
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+          <div className="absolute z-50 w-[70%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Every corner is meticulously designed to reflect the beauty and
             vastness of the galaxy.{" "}
           </div>
@@ -143,7 +143,7 @@ const Highlights = () => {
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+          <div className="absolute z-50 w-[70%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Club Satvika Galaxy offers a range of social amenities.{" "}
           </div>
           <img
@@ -152,47 +152,51 @@ const Highlights = () => {
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
-            Every corner is meticulously designed to reflect the beauty and
-            vastness of the galaxy.{" "}
+          <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
+            Our lush green landscapes, sustainable designs, and tranquil
+            gardens. Your perfect, eco-friendly home awaits.{" "}
           </div>
           <img src="/6.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[70%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4 ">
-            Our range of healthy experiences that meet the taste of every
-            fitness enthusiast.{" "}
+          <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4 ">
+            Community-centric living starts here, ultra-spacious apartments with
+            modern amenities & security.{" "}
           </div>
           <img src="/7.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[60%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
-            Enter into exclusive elite lifestyle experience with a grand
-            entrance foyer.{" "}
+          <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
+            Enjoy our terrace garden and cozy seating. Perfect for relaxation
+            and social gatherings. Your urban oasis awaits.{" "}
           </div>
           <img src="/11.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
-            Celebrate magnitude of events in a luxurious banquet hall.{" "}
+          <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
+            Welcome guests with grand entrance featuring an amphitheatre. Ideal
+            for community events and gatherings.{" "}
           </div>
           <img src="/12.png" className="hover:scale-110 transition-transform" />
         </div>
 
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
-            Stay tuned for more news and updates{" "}
+          <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
+            Beautiful architecture designed to captivate every heart. Our
+            stylish apartments blend elegance and comfort for your perfect home.{" "}
           </div>
           <img src="/13.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
-            Stay tuned for more news and updates{" "}
+          <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
+            Introducing Icon Tower: a sky-high marvel with stunning terraces.
+            Experience unparalleled views and luxury living in the heart of the
+            city.{" "}
           </div>
           <img src="/14.png" className="hover:scale-110 transition-transform" />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
-          <div className="absolute z-50 w-[50%] md:text-xl text-base font-semibold top-0 left-0 md:p-8 p-4">
+          <div className="absolute z-50 w-[50%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Stay tuned for more news and updates{" "}
           </div>
           <img
