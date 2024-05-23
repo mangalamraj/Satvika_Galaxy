@@ -65,12 +65,9 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
+                Kids Play Area
               </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
-              </div>
+              <div className="w-[100%] text-sm text-left pt-2"></div>
 
               <Dialog>
                 <DialogTrigger className="w-6 flex justify-around ml-auto mt-2">
@@ -102,13 +99,8 @@ export default function AmenitiesCarousel() {
                   className="w-[20px]"
                 />
               </div>
-              <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
-              </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
-              </div>
+              <div className="w-[70%] text-xl font-semibold text-left">Spa</div>
+              <div className="w-[100%] text-sm text-left pt-2"></div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -141,12 +133,9 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
+                Swimming Pool
               </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
-              </div>
+              <div className="w-[100%] text-sm text-left pt-2"></div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -179,12 +168,42 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
+                Shower Area
               </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
+              <div className="w-[100%] text-sm text-left pt-2"></div>
+
+              <Dialog>
+                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                  <Image
+                    src="/plus.svg"
+                    width={0}
+                    height={0}
+                    alt=""
+                    className="w-full h-full"
+                  ></Image>
+                </DialogTrigger>
+                <DialogContent>
+                  <DialogHeader>
+                    <DialogTitle>Are you absolutely sure?</DialogTitle>
+                    <DialogDescription>
+                      This action cannot be undone. This will permanently delete
+                      your account and remove your data from our servers.
+                    </DialogDescription>
+                  </DialogHeader>
+                </DialogContent>
+              </Dialog>
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+            <div>
+              <div style={{ width: "13%", marginBottom: "0.5em" }}>
+                <img
+                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
+                  className="w-[20px]"
+                />
               </div>
+              <div className="w-[70%] text-xl font-semibold text-left">Gym</div>
+              <div className="w-[100%] text-sm text-left pt-2"></div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -217,12 +236,9 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
+                Meeting Room
               </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
-              </div>
+              <div className="w-[100%] text-sm text-left pt-2"></div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
@@ -255,50 +271,9 @@ export default function AmenitiesCarousel() {
                 />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
+                Guest House
               </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
-              </div>
-
-              <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
-                  <Image
-                    src="/plus.svg"
-                    width={0}
-                    height={0}
-                    alt=""
-                    className="w-full h-full"
-                  ></Image>
-                </DialogTrigger>
-                <DialogContent>
-                  <DialogHeader>
-                    <DialogTitle>Are you absolutely sure?</DialogTitle>
-                    <DialogDescription>
-                      This action cannot be undone. This will permanently delete
-                      your account and remove your data from our servers.
-                    </DialogDescription>
-                  </DialogHeader>
-                </DialogContent>
-              </Dialog>
-            </div>
-          </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
-            <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
-              </div>
-              <div className="w-[70%] text-xl font-semibold text-left">
-                Save with Apple Trade In.
-              </div>
-              <div className="w-[100%] text-sm text-left pt-2">
-                Get ₹18000.00–₹62015.00 in credit towards iPhone 15 or iPhone 15
-                Pro when you trade in iPhone 11 or higher.19
-              </div>
+              <div className="w-[100%] text-sm text-left pt-2"></div>
 
               <Dialog>
                 <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
