@@ -42,7 +42,7 @@ const SecondaryCTA = () => {
               </p>
             </div>
           </div>
-          <div className="flex md:block justify-between pt-6 md:pt-0">
+          <div className="container md:px-0 flex md:block justify-between pt-6 md:pt-0">
             <div className="text-base font-semibold md:pb-16">
               <p>Icon Tower</p>
               <p className="text-4xl font-semibold text-white">Rooftop</p>
