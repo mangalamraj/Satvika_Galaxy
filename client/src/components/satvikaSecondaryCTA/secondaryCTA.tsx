@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SecondaryCTA = () => {
   return (
-    <div className="conatainer py-20 md:py-40 bg-black text-white">
+    <div className="conatainer py-20 md:py-40 bg-black text-white" id="id">
       <div className="md:w-3/4 m-auto">
         <img
           width={200}
@@ -10,7 +10,6 @@ const SecondaryCTA = () => {
           alt=""
           src="https://mango2.b-cdn.net/icon10.png"
           className="pb-10 md:pb-14 m-auto"
-          id="id"
         />
         <div className="container text-center md:text-6xl text-3xl leading4 font-semibold">
           <p className="text-3xl">Elevate Your Living to New Heights</p>
@@ -45,11 +44,11 @@ const SecondaryCTA = () => {
           </div>
           <div className="flex md:block justify-between pt-6 md:pt-0">
             <div className="text-base font-semibold md:pb-16">
-              <p>Icon Tower:</p>
+              <p>Icon Tower</p>
               <p className="text-4xl font-semibold text-white">Rooftop</p>
               <p>Lounge</p>
             </div>
-            <div className="text-base font-semibold md:pt-10">
+            <div className="text-base font-semibold ">
               <p>Skyline with</p>
               <p className="text-4xl font-semibold text-white">Unparelleled </p>
               <p>View</p>

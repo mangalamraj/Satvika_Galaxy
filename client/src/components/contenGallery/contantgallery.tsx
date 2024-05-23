@@ -61,7 +61,7 @@ const ContentGalllery = () => {
         </div>
         <div className="md:w-4/5 md:m-auto flex flex-col md:flex-row md:gap-20 gap-2 text-base font-semibold justify-between pt-10">
           <div className="text-justify tracking-tighter">
-            Satvika Galaxy, Patna &apos; s benchmark in residential projects.
+            Satvika Galaxy, Patna&apos;s benchmark in residential projects.
             Offering luxury flats with modern amenities, this premier
             development redefines sophisticated urban living and shaping a new.
             Experience unparalleled comfort, state-of-the-art facilities, and a

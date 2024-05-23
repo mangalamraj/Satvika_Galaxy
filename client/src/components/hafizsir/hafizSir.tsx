@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/card";
 const Hafeez = () => {
   return (
-    <div className=" bg-black md:py-10 md:pb-40 pb-20 bg-opacity-99">
-      <div className="container">
+    <div className=" bg-black  md:pb-5 pb-10 bg-opacity-99">
+      {/* <div className="container">
         <Card className="flex gap-4 flex-col xl:flex-row border-0  text-white bg-[#161617]  md:p-20 p-8 py-10">
           <div className="md:w-1/2">
             <img src="hafeez.png" className="w-[350px] h-[400px]" />
@@ -40,7 +40,8 @@ const Hafeez = () => {
             </div>
           </div>
         </Card>
-      </div>
+      </div> */}
+      <img src="/hafez.png" className="container" />
     </div>
   );
 };

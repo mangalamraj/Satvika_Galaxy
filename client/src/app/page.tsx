@@ -16,6 +16,7 @@ import HomeElement from "@/components/home/home";
 import FeatureComponent2 from "@/components/featureCard2/featureCard2";
 import SubodhSir from "@/components/subodhsir/subodhsir";
 import Hafeez from "@/components/hafizsir/hafizSir";
+import Downloads from "@/components/downloads/dowloads";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <SubodhSir />
       <Hafeez />
       {/* <FeatureComponent2 /> */}
+      <Downloads />
     </main>
   );
 }
