@@ -297,9 +297,9 @@ export default function AmenitiesCarousel() {
                 Guest House
               </div>
               <div className="w-[100%] text-sm text-left pt-2">
-                Elegantly furnished guest accommodations offering comfort and
-                convenience, ideal for visitors, featuring all necessary
-                amenities for a pleasant stay.
+                Elegantly furnished guest accommodations offering comfort and ,
+                ideal for visitors, featuring all necessary amenities for a
+                pleasant stay.
               </div>
 
               <Dialog>
