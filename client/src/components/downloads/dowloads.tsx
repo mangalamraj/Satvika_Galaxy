@@ -15,7 +15,7 @@ const Downloads = () => {
             height={300}
             alt=""
             src="/down.svg"
-            className="pb-5 m-auto"
+            className="pb-10 m-auto"
           />
           <div className="container text-center md:text-6xl text-3xl leading4 font-semibold">
             <p className="text-3xl">Official Documents</p>

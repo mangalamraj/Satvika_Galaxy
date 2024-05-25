@@ -34,7 +34,7 @@ const Footer = () => {
             src="/Logo3.svg"
             width={100}
             height={100}
-            className="manik"
+            className="manik mb-4 md:mb-0"
             alt=""
           />
           <hr />
