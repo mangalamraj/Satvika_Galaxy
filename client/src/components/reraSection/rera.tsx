@@ -29,7 +29,10 @@ const RERA = () => {
           />
         </div>
         <div className="container md:p-0 text-xs font-semibold text-center mt-6 w-full  md:w-[45%]  text-blue-600">
-          <Link href="https://oldprm.bihar.gov.in/searchProject/RERAP203312464_001">
+          <Link
+            href="https://oldprm.bihar.gov.in/searchProject/RERAP203312464_001"
+            target="_blank"
+          >
             www.oldprm.bihar.gov.in
           </Link>
         </div>
