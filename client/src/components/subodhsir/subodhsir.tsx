@@ -64,10 +64,18 @@ const SubodhSir = () => {
                 home. Explore our website, envision the possibilities, and join
                 us in a place where your lifestyle and aspirations thrive.
               </p>
-              <p className="text-sm pt-2 text-blue-600">
-                <Link href="https://satvikagroup.in/" target="_black">
-                  satvikagroup.in
-                </Link>
+
+              <p className="text-sm pt-2">
+                <div className="text-[#86868b]">
+                  visit our website :{" "}
+                  <Link
+                    className="text-blue-600"
+                    href="https://satvikagroup.in/"
+                    target="_black"
+                  >
+                    satvikagroup.in
+                  </Link>
+                </div>
               </p>
               {/* <div className="flex justify-between w-[80%]">
                 <div>

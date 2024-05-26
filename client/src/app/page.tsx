@@ -30,7 +30,7 @@ export default function Home() {
       <ContentGalllery />
       <SecondaryCTA />
       <AmenitiesCarousel />
-      <ZoomSection />
+      {/* <ZoomSection /> */}
       <SmallerCarousel />
       <AccordionCard />
       {/* <FeatureCsrd /> */}

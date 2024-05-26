@@ -70,8 +70,13 @@ const Hafeez = () => {
               to an epoch of royal luxury where lavishness is revered and the
               quality of life is unparalleled.
             </p>
-            <p className="text-sm pt-2 text-blue-600">
-              <Link href="https://www.hafeezcontractor.com/" target="_black">
+            <p className="text-sm pt-2 text-[#86868b]">
+              visit our website :{" "}
+              <Link
+                className="text-blue-600"
+                href="https://www.hafeezcontractor.com/"
+                target="_black"
+              >
                 visit website
               </Link>
             </p>
