@@ -9,6 +9,13 @@
     height: 100%;
     object-fit: cover; /* Ensures the image covers the container */
     display: block; /* Removes any space below the image */
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .background2 img {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 0px;
+    }
 }
