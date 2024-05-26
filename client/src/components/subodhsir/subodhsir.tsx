@@ -9,7 +9,7 @@ import {
 import Link from "next/link";
 const SubodhSir = () => {
   return (
-    <div className=" bg-black md:py-[80px] pb-20 pt-20 bg-opacity-99">
+    <div className=" bg-black md:py-[120px] pb-20 pt-20 bg-opacity-99">
       <div className="" id="testomonials">
         {/* <Card className="flex gap-4 flex-col xl:flex-row border-0  text-white  md:p-20 p-8 py-10">
           <div className="md:w-1/2">
@@ -65,17 +65,15 @@ const SubodhSir = () => {
                 us in a place where your lifestyle and aspirations thrive.
               </p>
 
-              <p className="text-sm pt-2">
-                <div className="text-[#86868b]">
-                  visit our website :{" "}
-                  <Link
-                    className="text-blue-600"
-                    href="https://satvikagroup.in/"
-                    target="_black"
-                  >
-                    satvikagroup.in
-                  </Link>
-                </div>
+              <p className="text-sm pt-2 text-[#86868b]">
+                visit our website :{" "}
+                <Link
+                  className="text-blue-600"
+                  href="https://satvikagroup.in/"
+                  target="_black"
+                >
+                  satvikagroup.in
+                </Link>
               </p>
               {/* <div className="flex justify-between w-[80%]">
                 <div>
