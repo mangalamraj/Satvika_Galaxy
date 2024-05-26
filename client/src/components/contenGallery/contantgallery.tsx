@@ -32,7 +32,7 @@ const ContentGalllery = () => {
         </div>
         <div className="md:w-4/5 md:m-auto md:text-5xl text-3xl leading4 font-semibold">
           <div className="pb-8">
-            <p className="inline md:block">Galaxy.</p>A skyline of
+            <p className="inline md:block">Galaxy. </p>A skyline of
             constellations.
           </div>
         </div>

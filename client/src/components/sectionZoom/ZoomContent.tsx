@@ -10,11 +10,11 @@ const ZoomSection = () => {
         <div className="md:w-3/4 m-auto text-[#86868b] md:text-2xl text-xl font-semibold my-10">
           Sunlit Sanctuaries: Morning Bliss at Satvika Galaxy
         </div>
-        <div className="relative" style={{ width: "100%", height: "500px" }}>
+        {/* <div className="relative" style={{ width: "100%", height: "500px" }}>
           {" "}
           {/* Adjust height as needed */}
-          <Image src="/lizard.jpg" alt="" layout="fill" objectFit="contain" />
-        </div>
+        {/* <Image src="/lizard.jpg" alt="" layout="fill" objectFit="contain" /> */}
+        {/* </div> */}
       </div>
       <div className="m-auto md:w-[50%] w-[90%] h-[0.75px] bg-white opacity-20 mt-40 "></div>
     </div>

@@ -1,5 +1,7 @@
 .background {
-    background-image: url("../../public/Asset2.svg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("/bg1.png");
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
