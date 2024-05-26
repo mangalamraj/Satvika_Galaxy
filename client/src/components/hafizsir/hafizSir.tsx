@@ -47,7 +47,7 @@ const Hafeez = () => {
       </div> */}
       {/* <img src="/hafez.png" className="container" /> */}
       <div className="container pb-20 flex justify-between ">
-        <div className="flex rounded-xl flex-col-reverse xl:flex-row items-center bg-[#161617]">
+        <div className="flex rounded-3xl flex-col-reverse xl:flex-row items-center bg-[#161617]">
           <div className="text-white xl:p-10 pt-10 xl:w-[60%] p-4">
             <h2 className="md:text-4xl text-3xl font-semibold pb-2">
               A message from our Design Architect
@@ -90,8 +90,8 @@ const Hafeez = () => {
               </div>
             </div> */}
           </div>
-          <div className="background2 w-[100%] xl:w-[40%] border-r-xl">
-            <img src="./hafeez.jpeg" className="border-r-xl" />
+          <div className="background2 w-[100%] xl:w-[40%] xl:border-r-3xl border-t-2xl">
+            <img src="./hafeez.jpeg" className="xl:border-r-2xl border-t-2xl" />
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ const SubodhSir = () => {
         </Card> */}
         {/* <img src="/Subodh_Sir.png" /> */}
         <div className="container  flex justify-between max-h-[741px] xl:max-h-[430px]">
-          <div className="flex rounded-xl flex-col-reverse xl:flex-row items-center bg-[#161617]">
+          <div className="flex rounded-3xl flex-col-reverse xl:flex-row items-center bg-[#161617]">
             <div className="text-white xl:p-10 pt-10 xl:w-[60%] p-4">
               <h2 className="md:text-4xl text-3xl font-semibold pb-2">
                 A message from our Managing director
