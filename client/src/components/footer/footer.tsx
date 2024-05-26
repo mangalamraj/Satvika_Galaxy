@@ -160,7 +160,7 @@ const Footer = () => {
                   <div>
                     <div className="footer-links text-2xl">8271 42 4888</div>
                     <div>
-                      <div className="footer-links text-2xl">8271 42 4888</div>
+                      <div className="footer-links text-2xl">8271 42 3888</div>
                     </div>
                   </div>
                 </div>
