@@ -77,7 +77,7 @@ const Hafeez = () => {
                 href="https://www.hafeezcontractor.com/"
                 target="_black"
               >
-                visit website
+                hafeezcontractor.com
               </Link>
             </p>
             {/* <div className="flex justify-between w-[80%]">
