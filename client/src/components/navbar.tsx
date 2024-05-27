@@ -215,18 +215,20 @@ const Navbar = () => {
                           <option value="Interested in Buying">
                             Interested in Buying
                           </option>
-                          <option value="Broker">Broker</option>
+                          <option value="Real Estate Agent">
+                            Real Estate Agent
+                          </option>
                         </select>
                       </div>
 
-                      <Button
+                      <button
                         type="submit"
                         value="Submit"
                         className="bg-blue-600 rounded-3xl hover:bg-blue-700 text-white font-bold py-2 px-8"
                         name="submit"
                       >
-                        Real Estate Agent
-                      </Button>
+                        Submit
+                      </button>
                     </form>
                   </div>
                 </div>
