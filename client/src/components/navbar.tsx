@@ -147,6 +147,7 @@ const Navbar = () => {
                       method="POST"
                       action="https://script.google.com/macros/s/AKfycbz3Gz5uiTFWToof0aiLgAzVJYMs07B6S1K_iCsjBXWh9L7fH4LBjhMu4vTYF8YimGY/exec"
                       className="mt-4"
+                      name="brochure-form"
                     >
                       <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-300">
@@ -220,9 +221,11 @@ const Navbar = () => {
 
                       <Button
                         type="submit"
+                        value="Submit"
                         className="bg-blue-600 rounded-3xl hover:bg-blue-700 text-white font-bold py-2 px-8"
+                        name="submit"
                       >
-                        Submit
+                        Real Estate Agent
                       </Button>
                     </form>
                   </div>
