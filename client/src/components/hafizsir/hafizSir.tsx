@@ -53,7 +53,7 @@ const Hafeez = () => {
               A message from our Design Architect
             </h2>
             <p className="md:text-2xl text-xl font-semibold md:pb-8 pb-4">
-              Ar. Hafez Contractor
+              Ar. Hafeez Contractor
             </p>
             <p className="text-sm font-semibold text-justify tracking-tighter pb-3">
               Architecture is akin to a narrative, where the language of the
