@@ -74,7 +74,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="w-6 flex justify-around ml-auto mt-2">
+                {/* <DialogTrigger className="w-6 flex justify-around ml-auto mt-2">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -82,7 +82,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
@@ -111,7 +111,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                {/* <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -119,7 +119,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
@@ -149,7 +149,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                {/* <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -157,7 +157,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent className="dark:bg-[#242426] border-0">
                   <DialogHeader className="bg-[#242426] text-white">
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
@@ -188,7 +188,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                {/* <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -196,7 +196,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
@@ -225,7 +225,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                {/* <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -233,7 +233,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
@@ -264,7 +264,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                {/* <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -272,7 +272,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
@@ -303,7 +303,7 @@ export default function AmenitiesCarousel() {
               </div>
 
               <Dialog>
-                <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
+                {/* <DialogTrigger className="mt-2 w-6 flex justify-around ml-auto">
                   <Image
                     src="/plus.svg"
                     width={0}
@@ -311,7 +311,7 @@ export default function AmenitiesCarousel() {
                     alt=""
                     className="w-full h-full"
                   ></Image>
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle>Are you absolutely sure?</DialogTitle>

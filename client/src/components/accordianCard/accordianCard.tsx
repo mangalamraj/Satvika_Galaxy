@@ -121,7 +121,7 @@ const AccordionCard = () => {
                 you can email us your queries at satvika.galaxy@gmail.com
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-3" className="border-[#424545]">
+            <AccordionItem value="item-4" className="border-[#424545]">
               <AccordionTrigger className="font-semibold text-xl text-left">
                 What is the location and connectivity of the project?
               </AccordionTrigger>
@@ -133,7 +133,7 @@ const AccordionCard = () => {
                 the brochure for utmost clarity.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-4" className="border-[#424545]">
+            <AccordionItem value="item-5" className="border-[#424545]">
               <AccordionTrigger className="font-semibold text-xl text-left">
                 Available amenities detailed information, please?
               </AccordionTrigger>
@@ -143,7 +143,7 @@ const AccordionCard = () => {
                 brochure for a detailed list of amenities.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-5" className="border-[#424545]">
+            <AccordionItem value="item-6" className="border-[#424545]">
               <AccordionTrigger className="font-semibold text-xl text-left">
                 Is this a sustainable project?
               </AccordionTrigger>

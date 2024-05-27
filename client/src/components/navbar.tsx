@@ -4,17 +4,71 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { X } from "lucide-react";
+import { toast } from "sonner";
 
 const Navbar = () => {
   const [isModalOpen, setModalOpen] = useState(false);
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [purpose, setPurpose] = useState("Interested in Buying");
+  const [isPhoneValid, setPhoneValid] = useState(true);
   const modalRef = useRef<HTMLDivElement>(null);
 
   const openModal = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // Handle form submission logic here
+    const submittedData = {
+      name,
+      phoneNumber,
+      email,
+      purpose,
+    };
+    const phoneRegex = /^[0-9]{10}$/;
+    if (phoneRegex.test(phoneNumber)) {
+      setPhoneValid(true);
+      // try {
+      //   const res = await fetch(
+      //     `https://script.google.com/macros/s/AKfycbz3Gz5uiTFWToof0aiLgAzVJYMs07B6S1K_iCsjBXWh9L7fH4LBjhMu4vTYF8YimGY/exec`,
+      //     {
+      //       method: "POST",
+      //       headers: {
+      //         "Content-Type": "application/json",
+      //       },
+      //       body: JSON.stringify(submittedData),
+      //     },
+      //   );
+
+      //   if (res.ok) {
+      //     toast.success("Application sent. ✨", {
+      //       position: "bottom-center",
+      //     });
+      //   } else {
+      //     throw new Error("Failed to submit application");
+      //   }
+      // } catch (error) {
+      //   toast.error("An error has occurred, please try again later.", {
+      //     position: "bottom-center",
+      //   });
+      // }
+    } else {
+      setPhoneValid(false);
+    }
+  };
+
+  const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setName(event.target.value);
+  };
+  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(event.target.value);
+  };
+  const handlePurposeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setPurpose(event.target.value);
+  };
+  const handlePhoneChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPhoneNumber(event.target.value);
   };
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -89,7 +143,11 @@ const Navbar = () => {
                     <p className="text-gray-300 text-sm">
                       Please fill the form below.
                     </p>
-                    <form onSubmit={handleSubmit} className="mt-4">
+                    <form
+                      method="POST"
+                      action="https://script.google.com/macros/s/AKfycbz3Gz5uiTFWToof0aiLgAzVJYMs07B6S1K_iCsjBXWh9L7fH4LBjhMu4vTYF8YimGY/exec"
+                      className="mt-4"
+                    >
                       <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-300">
                           Name
@@ -99,6 +157,10 @@ const Navbar = () => {
                           id="name"
                           className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder="Enter your name"
+                          // value={name}
+                          name="name"
+                          // onChange={handleNameChange}
+                          required
                         />
                       </div>
                       <div className="mb-4">
@@ -108,9 +170,18 @@ const Navbar = () => {
                         <input
                           type="tel"
                           id="phone"
+                          name="phoneNumber"
                           className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder="Enter your phone number"
+                          // value={phoneNumber}
+                          // onChange={handlePhoneChange}
+                          required
                         />
+                        {!isPhoneValid && (
+                          <p className="text-red-500 text-sm mt-1">
+                            Please enter a valid 10-digit phone number.
+                          </p>
+                        )}
                       </div>
                       <div className="mb-4">
                         <label htmlFor="email" className="block text-gray-300">
@@ -119,8 +190,11 @@ const Navbar = () => {
                         <input
                           type="email"
                           id="email"
+                          name="email"
                           className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder="Enter your email"
+                          // value={email}
+                          // onChange={handleEmailChange}
                         />
                       </div>
                       <div className="mb-4">
@@ -132,12 +206,15 @@ const Navbar = () => {
                         </label>
                         <select
                           id="purpose"
+                          name="purpose"
+                          // onChange={handlePurposeChange}
+                          // value={purpose}
                           className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                         >
-                          <option value="interested">
+                          <option value="Interested in Buying">
                             Interested in Buying
                           </option>
-                          <option value="broker">Broker</option>
+                          <option value="Broker">Broker</option>
                         </select>
                       </div>
 
