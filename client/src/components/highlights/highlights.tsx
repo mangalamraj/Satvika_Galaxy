@@ -4,10 +4,12 @@ import "keen-slider/keen-slider.min.css";
 import "./styles.css";
 import { useState } from "react";
 import Link from "next/link";
+import { useModal } from "@/app/providers/modalProvider";
 
 const Highlights = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
+  const { openModal } = useModal();
   const [sliderRef, instanceRef] = useKeenSlider(
     {
       loop: true,
@@ -60,6 +62,7 @@ const Highlights = () => {
       },
     ],
   );
+
   return (
     <div className="bg-[#161617] py-20 md:pt-30 pb-32 bg-opacity-99">
       <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
@@ -93,13 +96,12 @@ const Highlights = () => {
             data-aos-easing="ease-in-out"
           >
             Get the Brochure.{" "}
-            <Link
-              href="/brochure.pdf"
-              target="_blank"
-              className="inline text-blue-600"
+            <p
+              onClick={openModal}
+              className="inline text-blue-600 cursor-pointer"
             >
               Download
-            </Link>
+            </p>
           </div>
         </div>
       </div>

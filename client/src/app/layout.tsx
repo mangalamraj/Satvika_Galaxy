@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer/footer";
 import Banner from "@/components/banner";
 import Head from "next/head";
+import { ModalProvider } from "./providers/modalProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,10 +27,12 @@ export default function RootLayout({
       </head>
 
       <body className={inter.className}>
-        <Navbar />
-        <Banner />
-        {children}
-        <Footer />
+        <ModalProvider>
+          <Navbar />
+          <Banner />
+          {children}
+          <Footer />
+        </ModalProvider>
       </body>
     </html>
   );

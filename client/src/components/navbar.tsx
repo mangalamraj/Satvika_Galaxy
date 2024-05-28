@@ -5,71 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { X } from "lucide-react";
 import { toast } from "sonner";
+import { useModal } from "@/app/providers/modalProvider";
 
 const Navbar = () => {
-  const [isModalOpen, setModalOpen] = useState(false);
-  const [name, setName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [email, setEmail] = useState("");
-  const [purpose, setPurpose] = useState("Interested in Buying");
+  const { isModalOpen, openModal, closeModal } = useModal();
   const [isPhoneValid, setPhoneValid] = useState(true);
   const modalRef = useRef<HTMLDivElement>(null);
-
-  const openModal = () => setModalOpen(true);
-  const closeModal = () => setModalOpen(false);
-
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const submittedData = {
-      name,
-      phoneNumber,
-      email,
-      purpose,
-    };
-    const phoneRegex = /^[0-9]{10}$/;
-    if (phoneRegex.test(phoneNumber)) {
-      setPhoneValid(true);
-      // try {
-      //   const res = await fetch(
-      //     `https://script.google.com/macros/s/AKfycbz3Gz5uiTFWToof0aiLgAzVJYMs07B6S1K_iCsjBXWh9L7fH4LBjhMu4vTYF8YimGY/exec`,
-      //     {
-      //       method: "POST",
-      //       headers: {
-      //         "Content-Type": "application/json",
-      //       },
-      //       body: JSON.stringify(submittedData),
-      //     },
-      //   );
-
-      //   if (res.ok) {
-      //     toast.success("Application sent. ✨", {
-      //       position: "bottom-center",
-      //     });
-      //   } else {
-      //     throw new Error("Failed to submit application");
-      //   }
-      // } catch (error) {
-      //   toast.error("An error has occurred, please try again later.", {
-      //     position: "bottom-center",
-      //   });
-      // }
-    } else {
-      setPhoneValid(false);
-    }
-  };
-
-  const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setName(event.target.value);
-  };
-  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value);
-  };
-  const handlePurposeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setPurpose(event.target.value);
-  };
-  const handlePhoneChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setPhoneNumber(event.target.value);
-  };
 
   const handleClickOutside = (event: MouseEvent) => {
     if (modalRef.current && !modalRef.current.contains(event.target as Node)) {
@@ -119,15 +60,15 @@ const Navbar = () => {
             {isModalOpen && (
               <div
                 id="myModal"
-                className="fixed xl:mt-4 inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
+                className="container absolute pt-36 inset-0 flex items-center justify-center z-50"
                 role="dialog"
                 style={{ display: "block" }}
               >
                 <div
                   ref={modalRef}
-                  className="bg-[#161617] p-6 rounded-lg shadow-lg w-full max-w-md mx-auto"
+                  className=" bg-[#373A40] p-6 rounded-lg shadow-lg w-full max-w-md mx-auto"
                 >
-                  <div className="flex justify-between items-center border-b border-gray-700 pb-3">
+                  <div className="flex justify-between items-center border-b-[0.3px] border-gray-100  border-opacity-40  pb-3">
                     <h3 className="text-lg font-medium text-white">
                       Download Your Brochure
                     </h3>
@@ -145,9 +86,19 @@ const Navbar = () => {
                     </p>
                     <form
                       method="POST"
-                      action="https://script.google.com/macros/s/AKfycbz3Gz5uiTFWToof0aiLgAzVJYMs07B6S1K_iCsjBXWh9L7fH4LBjhMu4vTYF8YimGY/exec"
+                      action="https://script.google.com/macros/s/AKfycbyOo88NnUZM7NWV5O7rHX3NepikW_utM5Qz4L4N8CuNNilDbw0XiYInPehw6ErxIyOX/exec"
+                      target="hidden_iframe"
                       className="mt-4"
                       name="brochure-form"
+                      onSubmit={() => {
+                        toast.success("Application sent. ✨", {
+                          position: "bottom-center",
+                        });
+                        setTimeout(() => {
+                          window.open("/brochure.pdf", "_blank");
+                          closeModal();
+                        }, 1000);
+                      }}
                     >
                       <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-300">
@@ -156,11 +107,9 @@ const Navbar = () => {
                         <input
                           type="text"
                           id="name"
-                          className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full p-2 mt-1  text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder="Enter your name"
-                          // value={name}
                           name="name"
-                          // onChange={handleNameChange}
                           required
                         />
                       </div>
@@ -172,10 +121,8 @@ const Navbar = () => {
                           type="tel"
                           id="phone"
                           name="phoneNumber"
-                          className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full p-2 mt-1  text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder="Enter your phone number"
-                          // value={phoneNumber}
-                          // onChange={handlePhoneChange}
                           required
                         />
                         {!isPhoneValid && (
@@ -192,10 +139,8 @@ const Navbar = () => {
                           type="email"
                           id="email"
                           name="email"
-                          className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full p-2 mt-1  text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder="Enter your email"
-                          // value={email}
-                          // onChange={handleEmailChange}
                         />
                       </div>
                       <div className="mb-4">
@@ -208,9 +153,7 @@ const Navbar = () => {
                         <select
                           id="purpose"
                           name="purpose"
-                          // onChange={handlePurposeChange}
-                          // value={purpose}
-                          className="w-full p-2 mt-1 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full p-2 mt-1  text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                         >
                           <option value="Interested in Buying">
                             Interested in Buying
@@ -232,6 +175,11 @@ const Navbar = () => {
                     </form>
                   </div>
                 </div>
+                <iframe
+                  name="hidden_iframe"
+                  id="hidden_iframe"
+                  style={{ display: "none" }}
+                ></iframe>
               </div>
             )}
           </div>
