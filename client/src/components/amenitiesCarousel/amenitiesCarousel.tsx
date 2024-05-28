@@ -41,22 +41,22 @@ export default function AmenitiesCarousel() {
           modules={[Navigation]}
           breakpoints={{
             640: {
-              slidesPerView: 2,
-              spaceBetween: 40,
+              slidesPerView: 1,
+              spaceBetween: 30,
             },
             768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
+              slidesPerView: 1,
+              spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 2,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
           }}
           centeredSlides={true}
           className="swiper-no-swiping"
         >
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -95,7 +95,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -132,7 +132,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl">
+          <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -170,7 +170,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className=" md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -209,7 +209,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -246,7 +246,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -285,7 +285,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <SwiperSlide className=" m-4 md:m-0 max-w-[320px] md:max-w-[300] text-white bg-[#242426] p-6 rounded-3xl swiper-no-swiping">
+          <SwiperSlide className=" md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
               <div style={{ width: "13%", marginBottom: "0.5em" }}>
                 <img
@@ -324,7 +324,7 @@ export default function AmenitiesCarousel() {
               </Dialog>
             </div>
           </SwiperSlide>{" "}
-          <div className="relative w-[80%] md:mt-14 mt-10 ">
+          <div className="relative w-[80%] md:mt-14 mt-12 ">
             <div className=" absolute bottom-0  right-0 mt-10 mr-14  swiper-button-prev">
               <Image
                 src="/arrow.svg"
