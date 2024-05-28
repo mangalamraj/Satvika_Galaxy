@@ -16,10 +16,11 @@ import {
 import { useState } from "react";
 import "./accordian.css";
 import Link from "next/link";
+import { useModal } from "@/app/providers/modalProvider";
 
 const AccordionCard = () => {
   const [activeAccordion, setActiveAccordion] = useState(null); // State to manage active accordion item
-
+  const { openModal } = useModal();
   const toggleAccordion = (value: any) => {
     setActiveAccordion(activeAccordion === value ? null : value); // Toggle accordion state
   };
@@ -57,13 +58,12 @@ const AccordionCard = () => {
               data-aos-easing="ease-in-out"
             >
               Get the Brochure.{" "}
-              <Link
-                href="/brochure.pdf"
-                target="_blank"
-                className="inline text-blue-600"
+              <p
+                onClick={openModal}
+                className="inline text-blue-600 cursor-pointer"
               >
                 Download
-              </Link>
+              </p>
             </div>
           </div>
         </div>
