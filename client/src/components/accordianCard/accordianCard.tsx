@@ -159,6 +159,22 @@ const AccordionCard = () => {
           </div>
         </Card>
       </div>
+      <div className="container md:p-0 text-xs font-medium text-center mt-10 w-full  md:w-[45%] m-auto text-[#86868b]">
+        Didn’t find what you were looking for - email us your queries at{" "}
+        <Link href="mailto:satvika.galaxy@gamil.com" target="_blank">
+          <p className="inline text-blue-600">satvika.galaxy@gamil.com</p>
+        </Link>{" "}
+        or call us at{" "}
+        <p>
+          <Link href="tel:8271 42 4888" className="inline text-blue-600">
+            8271 42 4888
+          </Link>{" "}
+          /{" "}
+          <Link href="tel:8271 42 3888" className="inline text-blue-600">
+            8271 42 3888
+          </Link>{" "}
+        </p>
+      </div>
     </div>
   );
 };

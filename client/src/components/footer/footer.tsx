@@ -158,9 +158,19 @@ const Footer = () => {
                 <div className="">
                   <h3 style={{ color: "gray" }}>Call Us</h3>
                   <div>
-                    <div className="footer-links text-2xl">8271 42 4888</div>
+                    <Link
+                      href="tel:8271 42 4888"
+                      className="footer-links text-2xl"
+                    >
+                      8271 42 4888
+                    </Link>
                     <div>
-                      <div className="footer-links text-2xl">8271 42 3888</div>
+                      <Link
+                        href="tel:8271 42 3888"
+                        className="footer-links text-2xl"
+                      >
+                        8271 42 3888
+                      </Link>
                     </div>
                   </div>
                 </div>
