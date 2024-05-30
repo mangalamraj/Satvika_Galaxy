@@ -58,11 +58,8 @@ export default function AmenitiesCarousel() {
         >
           <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="ball.svg" className="w-[20px]" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
                 Kids Play Area
@@ -97,11 +94,8 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="/spa.svg" className="w-[20px]" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">Spa</div>
               <div className="w-[100%] text-sm text-left pt-2">
@@ -134,11 +128,8 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="/pool.svg" className="w-[20px]" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
                 Swimming Pool
@@ -172,11 +163,8 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <SwiperSlide className=" md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="shower.svg" className="w-[20px]" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
                 Shower Area
@@ -211,11 +199,8 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="/gym.svg" className="w-[20px] text-white" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">Gym</div>
               <div className="w-[100%] text-sm text-left pt-2">
@@ -248,11 +233,8 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <SwiperSlide className="  md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="/meeting.svg" className="w-[20px]" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
                 Meeting Room
@@ -287,11 +269,8 @@ export default function AmenitiesCarousel() {
           </SwiperSlide>{" "}
           <SwiperSlide className=" md:m-0  text-white bg-[#242426] p-6 md:rounded-3xl swiper-no-swiping">
             <div>
-              <div style={{ width: "13%", marginBottom: "0.5em" }}>
-                <img
-                  src="https://www.apple.com/v/iphone-15-pro/c/images/overview/why-apple/icon_trade_in__d55z58jpfkq6_large_2x.png"
-                  className="w-[20px]"
-                />
+              <div style={{ width: "35px", marginBottom: "0.5em" }}>
+                <img src="/guest.svg" className="w-[20px]" />
               </div>
               <div className="w-[70%] text-xl font-semibold text-left">
                 Guest House
