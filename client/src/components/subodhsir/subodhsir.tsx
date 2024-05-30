@@ -10,6 +10,9 @@ import Link from "next/link";
 const SubodhSir = () => {
   return (
     <div className=" bg-black md:py-[120px] pb-20 pt-20 bg-opacity-99">
+      <div className="  m-auto md:text-6xl text-3xl leading4 font-semibold text-white mb-10 container">
+        Our Team
+      </div>
       <div className="" id="testomonials">
         {/* <Card className="flex gap-4 flex-col xl:flex-row border-0  text-white  md:p-20 p-8 py-10">
           <div className="md:w-1/2">
