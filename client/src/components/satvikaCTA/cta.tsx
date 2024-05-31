@@ -8,7 +8,7 @@ const CTA = () => {
           width={200}
           height={200}
           alt="logo"
-          src="/Logo3.svg"
+          src="https://res.cloudinary.com/diftttclq/image/upload/v1717176288/Satvika/Logo3_uke2pg.svg"
           className="pb-10 md:pb-14"
         />
         <div className="container absolute top-60 md:w-[100%] w-full md:pb-7 pb-3 opacity-75">

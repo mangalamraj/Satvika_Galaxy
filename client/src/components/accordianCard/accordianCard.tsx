@@ -155,7 +155,13 @@ const AccordionCard = () => {
             </AccordionItem>
           </Accordion>
           <div className="p-16 md:pt-24">
-            <img src="/faq.svg" width={600} height={500} />
+            <img
+              src="/faq.svg"
+              width={600}
+              height={500}
+              alt="faqimg"
+              loading="lazy"
+            />
           </div>
         </Card>
       </div>

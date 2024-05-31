@@ -34,7 +34,12 @@ const Navbar = () => {
     <div className="sticky top-0 z-50 h-20 w-full items-center backdrop-blur shadow-sm px-2 flex justify-between bg-black">
       <div className="flex justify-between container">
         <div className="font-semibold text-xl md:text-2xl">
-          <Image src="/Logo3.svg" alt="" width={150} height={100} />
+          <Image
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717176288/Satvika/Logo3_uke2pg.svg"
+            alt="Satvika Logo"
+            width={150}
+            height={100}
+          />
         </div>
         <div className="flex items-center text-white gap-4">
           <Link
