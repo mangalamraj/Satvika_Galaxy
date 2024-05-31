@@ -40,11 +40,11 @@ const HomeElement = () => {
 
             <div className="md:w-40 w-40">
               <Image
-                src="/Lifeamongst.svg"
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717176531/Satvika/Lifeamongst_mpiczf.svg"
                 width={0}
                 height={0}
                 className="w-full h-full"
-                alt=""
+                alt="lifeamongst"
               />
             </div>
           </div>
