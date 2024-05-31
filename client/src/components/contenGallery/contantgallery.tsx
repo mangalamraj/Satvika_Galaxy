@@ -63,7 +63,6 @@ const ContentGalllery = () => {
                 src="https://res.cloudinary.com/diftttclq/image/upload/v1717176901/Satvika/three3_rulpb6.png"
                 alt="SatvikaGalaxy"
                 className="w-1/2"
-                alt="SatvikaGalaxy"
               />
             </div>
           </div>
