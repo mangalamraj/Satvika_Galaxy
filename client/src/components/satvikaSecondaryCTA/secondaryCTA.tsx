@@ -19,7 +19,11 @@ const SecondaryCTA = () => {
           unparalleled views and luxurious living at every level.
         </div>
         <div className="container h-[60%] pb-8">
-          <img src="/icon1.png" className="m-auto w-full"></img>
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717176920/Satvika/icon1_phfux8.png"
+            alt="icontower"
+            className="m-auto w-full"
+          ></img>
         </div>
         <div className="container md:flex justify-center gap-20 text-[#86868b]">
           <div className="flex flex-col gap-2  text-base font-normal">

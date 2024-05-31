@@ -46,16 +46,25 @@ const ContentGalllery = () => {
               }}
             >
               <img
-                src="/three1.png"
-                alt=""
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717176898/Satvika/three1_cffwbf.png"
+                alt="SatvikaGalaxy"
                 className="w-full overflow-y-hidden"
               />
             </motion.div>
           </div>
           <div className="md:w-4/5 m-auto overflow-hidden mt-4">
             <div className="flex gap-4 m-auto">
-              <img src="/three2.png" className="w-1/2" alt="" />
-              <img src="/three3.png" className="w-1/2" alt="" />
+              <img
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717176908/Satvika/three2_qt67ak.png"
+                className="w-1/2"
+                alt="SatvikaGalaxy"
+              />
+              <img
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717176901/Satvika/three3_rulpb6.png"
+                alt="SatvikaGalaxy"
+                className="w-1/2"
+                alt="SatvikaGalaxy"
+              />
             </div>
           </div>
         </div>
