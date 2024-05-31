@@ -111,8 +111,9 @@ const Highlights = () => {
             Gaze upon the sparkling waters of our pools, a true serene feeling.{" "}
           </div>
           <img
-            src="/slide1.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173503/Satvika/slide1_omgdjy.png"
             className="hover:scale-110 transition-transform "
+            alt="slidepics"
           />
         </div>
         <div className="keen-slider__slide number-slide2 md:rounded-3xl">
@@ -120,8 +121,9 @@ const Highlights = () => {
             Ultra Luxury modern apartments with world class amenities.{" "}
           </div>
           <img
-            src="/slide2.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173504/Satvika/slide2_dgr1nz.png"
             className="hover:scale-110 transition-transform"
+            alt="slidepics"
           />
         </div>
         <div className="keen-slider__slide number-slide3 md:rounded-3xl">
@@ -130,8 +132,9 @@ const Highlights = () => {
             of a serene.{" "}
           </div>
           <img
-            src="/slide3.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173503/Satvika/slide3_yxxb7r.png"
             className="hover:scale-110 transition-transform"
+            alt="slidepics"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
@@ -140,8 +143,9 @@ const Highlights = () => {
             vastness of the galaxy.{" "}
           </div>
           <img
-            src="/slide4.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173503/Satvika/slide4_i2w2rx.png"
             className="hover:scale-110 transition-transform"
+            alt="slidepics"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
@@ -149,8 +153,9 @@ const Highlights = () => {
             Club Satvika Galaxy offers a range of social amenities.{" "}
           </div>
           <img
-            src="/slide5.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173505/Satvika/slide5_ypg1t8.png"
             className="hover:scale-110 transition-transform"
+            alt="slidepics"
           />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
@@ -158,28 +163,44 @@ const Highlights = () => {
             Our lush green landscapes, sustainable designs, and tranquil
             gardens. Your perfect, eco-friendly home awaits.{" "}
           </div>
-          <img src="/6.png" className="hover:scale-110 transition-transform" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175145/Satvika/6_pafz8b.png"
+            alt="slidepics"
+            className="hover:scale-110 transition-transform"
+          />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4 ">
             Community-centric living starts here, ultra-spacious apartments with
             modern amenities & security.{" "}
           </div>
-          <img src="/7.png" className="hover:scale-110 transition-transform" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175141/Satvika/7_mjtwrf.png"
+            alt="slidepics"
+            className="hover:scale-110 transition-transform"
+          />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Enjoy our terrace garden and cozy seating. Perfect for relaxation
             and social gatherings. Your urban oasis awaits.{" "}
           </div>
-          <img src="/11.png" className="hover:scale-110 transition-transform" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175189/Satvika/11_smpyrg.png"
+            alt="slidepics"
+            className="hover:scale-110 transition-transform"
+          />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Welcome guests with grand entrance featuring an amphitheatre. Ideal
             for community events and gatherings.{" "}
           </div>
-          <img src="/12.png" className="hover:scale-110 transition-transform" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175184/Satvika/12_yvx7ky.png"
+            alt="slidepics"
+            className="hover:scale-110 transition-transform"
+          />
         </div>
 
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
@@ -187,7 +208,11 @@ const Highlights = () => {
             Beautiful architecture designed to captivate every heart. Our
             stylish apartments blend elegance and comfort for your perfect home.{" "}
           </div>
-          <img src="/13.png" className="hover:scale-110 transition-transform" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175178/Satvika/13_dtxsch.png"
+            alt="slidepics"
+            className="hover:scale-110 transition-transform"
+          />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[90%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
@@ -195,15 +220,20 @@ const Highlights = () => {
             Experience unparalleled views and luxury living in the heart of the
             city.{" "}
           </div>
-          <img src="/14.png" className="hover:scale-110 transition-transform" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175178/Satvika/13_dtxsch.png"
+            alt="slidepics"
+            className="hover:scale-110 transition-transform"
+          />
         </div>
         <div className="keen-slider__slide number-slide4 md:rounded-3xl">
           <div className="absolute z-50 w-[50%] md:text-xl text-sm font-semibold top-0 left-0 md:p-8 p-4">
             Stay tuned for more news and updates{" "}
           </div>
           <img
-            src="/slide10.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173503/Satvika/slide10_zjudt6.png"
             className="hover:scale-110 transition-transform"
+            alt="slidepics"
           />
         </div>
       </div>
