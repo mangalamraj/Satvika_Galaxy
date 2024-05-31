@@ -7,7 +7,7 @@ const CTA = () => {
         <Image
           width={200}
           height={200}
-          alt=""
+          alt="logo"
           src="/Logo3.svg"
           className="pb-10 md:pb-14"
         />
@@ -17,7 +17,7 @@ const CTA = () => {
             width={0}
             height={0}
             className="w-full h-full"
-            alt=""
+            alt="satvikatext"
           />
         </div>
         <div className="flex flex-col gap-4">
@@ -41,7 +41,11 @@ const CTA = () => {
             </div>
           </div>
           <div className="md:w-[70%] md:m-auto">
-            <img src="/Hands.png" className="w-full md:h-[450px]" />
+            <img
+              src="https://res.cloudinary.com/diftttclq/image/upload/v1717173788/Satvika/Hands_wvxqg7.png"
+              alt="fistbump"
+              className="w-full md:h-[450px]"
+            />
           </div>
           <div className=" md:pb-20 pb-4  text-sm font-semibold  w-full  md:w-[70%] m-auto text-white  text-justify">
             Our innovative construction techniques and attention to detail
@@ -58,9 +62,24 @@ const CTA = () => {
             technology, and sustainable practices.
           </div>
           <div className=" md:p-0 w-full flex justify-center align-middle items-center">
-            <img src="/4.1.svg" className="w-1/4 m-auto" />
-            <img src="/4.2.svg" className="w-1/4 m-auto" />
-            <img src="/4.3.svg" className="w-1/4 m-auto" />
+            <img
+              src="/4.1.svg"
+              alt="writtenpart"
+              className="w-1/4 m-auto"
+              loading="lazy"
+            />
+            <img
+              src="/4.2.svg"
+              alt="writtenpart"
+              className="w-1/4 m-auto"
+              loading="lazy"
+            />
+            <img
+              src="/4.3.svg"
+              alt="writtenpart"
+              className="w-1/4 m-auto"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

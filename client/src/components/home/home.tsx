@@ -30,7 +30,7 @@ const HomeElement = () => {
           <div className="flex flex-col gap-6 w-full items-center">
             <div className="md:w-64 w-44">
               <Image
-                src="/gALAXY.svg"
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717162783/Satvika/snndj1det2wddfnomsy6.svg"
                 width={0}
                 height={0}
                 className="w-full h-full"
@@ -62,7 +62,7 @@ const HomeElement = () => {
               style={{ translateX: x }}
             >
               <Image
-                src="/1.svg"
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717163438/Satvika/sATVIkA_kdfo5n.svg"
                 width={0}
                 height={0}
                 className="w-full h-full"
@@ -75,10 +75,10 @@ const HomeElement = () => {
               style={{ translateX: y }}
             >
               <Image
-                src="/2.svg"
+                src="https://res.cloudinary.com/diftttclq/image/upload/v1717163438/Satvika/sATVIkA_kdfo5n.svg"
                 width={0}
                 height={0}
-                className="w-full h-full pb-7"
+                className="w-full h-full pb-7 opacity-50"
                 alt=""
               />
             </motion.div>
@@ -86,7 +86,7 @@ const HomeElement = () => {
         </div>
         <div className="absolute  bottom-0  w-full overflow-hidden">
           <img
-            src="/main1.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717174024/Satvika/main1_hek8th.png"
             alt="P111"
             className="mx-auto 2xl:w-[720px] w-[600px]"
           />
@@ -96,14 +96,20 @@ const HomeElement = () => {
           style={{ translateX: c1 }}
           ref={ref}
         >
-          <img src="/cloud.png" className="w-[400px] m-auto" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173764/Satvika/cloud_wjyqsj.png"
+            className="w-[400px] m-auto"
+          />
         </motion.div>
         <motion.div
           className="absolute bottom-44 md:block md:bottom-28 right-0 md:w-2/3 w-1/3  overflow-hidden"
           style={{ translateX: c2 }}
           ref={ref}
         >
-          <img src="/cloud.png" className="w-[400px] m-auto" />
+          <img
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717173764/Satvika/cloud_wjyqsj.png"
+            className="w-[400px] m-auto"
+          />
         </motion.div>
       </div>
     </>

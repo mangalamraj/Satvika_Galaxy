@@ -1,6 +1,6 @@
 .background {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("/bg1.png");
+        url("https://res.cloudinary.com/diftttclq/image/upload/v1717173552/Satvika/bg1_mtktal.png");
 
     background-size: cover;
     background-repeat: no-repeat;
