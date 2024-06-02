@@ -221,7 +221,7 @@ const Highlights = () => {
             city.{" "}
           </div>
           <img
-            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175178/Satvika/13_dtxsch.png"
+            src="https://res.cloudinary.com/diftttclq/image/upload/v1717175172/Satvika/14_x8g4bn.png"
             alt="slidepics"
             className="hover:scale-110 transition-transform"
           />
