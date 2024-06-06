@@ -28,7 +28,7 @@ const HomeElement = () => {
         <div className="span1"></div>
         <div className="w-full flex flex-col gap-5 md:justify-between h-full">
           <div className="flex flex-col gap-6 w-full items-center">
-            <div className="md:w-64 w-44">
+            <div className="2xl:w-64  w-44">
               <Image
                 src="https://res.cloudinary.com/diftttclq/image/upload/v1717162783/Satvika/snndj1det2wddfnomsy6.svg"
                 width={0}
@@ -88,17 +88,17 @@ const HomeElement = () => {
           <img
             src="https://res.cloudinary.com/diftttclq/image/upload/v1717174024/Satvika/main1_hek8th.png"
             alt="P111"
-            className="mx-auto 2xl:w-[720px] w-[600px]"
+            className="mx-auto 2xl:w-[720px] xl:w-[520px] w-[600px]"
           />
         </div>
         <motion.div
-          className="absolute hidden md:block md:-bottom-20 left-0 w-2/3  overflow-hidden"
+          className="absolute hidden md:block md:-bottom-12 2xl:-bottom-20 left-0 w-2/3  overflow-hidden"
           style={{ translateX: c1 }}
           ref={ref}
         >
           <img
             src="https://res.cloudinary.com/diftttclq/image/upload/v1717173764/Satvika/cloud_wjyqsj.png"
-            className="w-[400px] m-auto"
+            className="w-[400px] xl:w-[300px] 2xl:w-[400px] m-auto"
           />
         </motion.div>
         <motion.div
@@ -108,7 +108,7 @@ const HomeElement = () => {
         >
           <img
             src="https://res.cloudinary.com/diftttclq/image/upload/v1717173764/Satvika/cloud_wjyqsj.png"
-            className="w-[400px] m-auto"
+            className="w-[400px] xl:w-[300px] 2xl:w-[400px] m-auto"
           />
         </motion.div>
       </div>
