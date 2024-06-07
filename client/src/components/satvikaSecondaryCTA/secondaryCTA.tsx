@@ -8,7 +8,7 @@ const SecondaryCTA = () => {
           width={200}
           height={200}
           alt=""
-          src="https://mango2.b-cdn.net/icon10.png"
+          src="https://res.cloudinary.com/diftttclq/image/upload/v1717768672/icon10_eadh2c.svg"
           className="pb-10 md:pb-14 m-auto"
         />
         <div className="container text-center md:text-6xl text-3xl leading4 font-semibold">
