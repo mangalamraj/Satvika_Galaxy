@@ -1,7 +1,5 @@
 # Satvika Galaxy
 
-![Satvika Galaxy](https://satvika-galaxy.vercel.app/)
-
 Satvika Galaxy is a showcase website developed using Next.js with TypeScript, styled with Tailwind CSS and animated using Framer Motion.
 
 ## Features
