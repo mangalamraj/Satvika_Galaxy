@@ -18,6 +18,8 @@ import SubodhSir from "@/components/subodhsir/subodhsir";
 import Hafeez from "@/components/hafizsir/hafizSir";
 import Downloads from "@/components/downloads/dowloads";
 import RERA from "@/components/reraSection/rera";
+import ProgressVideo from "@/components/progressVideo/progressVideo";
+import ProgressSliders from "@/components/progressSliders/progressSliders";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       <div className="w-full md:h-8 h-4 bg-black"></div>
       <VideoComponent />
       <Highlights />
+      <ProgressVideo />
+      <ProgressSliders />
       <CTA />
       <ContentGalllery />
       <SecondaryCTA />

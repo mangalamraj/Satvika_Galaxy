@@ -1,70 +1,82 @@
 .background {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("https://res.cloudinary.com/diftttclq/image/upload/v1717173552/Satvika/bg1_mtktal.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://res.cloudinary.com/diftttclq/image/upload/v1717173552/Satvika/bg1_mtktal.png");
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @keyframe animatebg {
-    0%,
-    100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 .span1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 4px;
-    height: 4px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow:
-        0 0 0 4px rgba(255, 255, 255, 0.1),
-        0 0 0 8px rgba(255, 255, 255, 0.1),
-        0 0 20px rgba(255, 255, 255, 1);
-    animation: animate 3s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
+  animation: animate 3s linear infinite;
 }
 
 .span1::before {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
-    height: 1px;
-    background: linear-gradient(90deg, #fff, transparent);
+  content: " ";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(90deg, #fff, transparent);
 }
 
 @keyframes animate {
-    0% {
-        transform: rotate(315deg) translateX(0);
-        opacity: 1;
-    }
-    70% {
-        opacity: 1;
-    }
-    100% {
-        transform: rotate(315deg) translateX(-1000px);
-        opacity: 0;
-    }
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
 }
 .span1:nth-child(1) {
-    top: 0;
-    right: 0;
-    left: initial;
-    animation-delay: 0s;
-    animation-duration: 2s;
+  top: 0;
+  right: 0;
+  left: initial;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+
+.progress-video {
+  margin-inline: 200px;
+}
+@media (max-width: 1200px) {
+  .progress-video {
+    margin-inline: 100px;
+  }
+}
+@media (max-width: 680px) {
+  .progress-video {
+    margin-inline: 0;
+  }
 }
