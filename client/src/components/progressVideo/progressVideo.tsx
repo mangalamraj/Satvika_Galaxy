@@ -16,7 +16,7 @@ const ProgressVideo = () => {
   }, []);
 
   return (
-    <div className="bg-[#0F2F44]">
+    <div className="bg-[#0F2F44] pt-20 md:pt-0">
       <div className="relative bg-[#0F2F44]" id="video">
         <div
           className="progress-video"

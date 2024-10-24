@@ -69,7 +69,7 @@ const ProgressSliders = () => {
   );
 
   return (
-    <div className="bg-[#0F2F44] py-0 md:pt-30 pb-32 bg-opacity-99">
+    <div className="bg-[#0F2F44] pt-20 md:pt-30 pb-32 bg-opacity-99">
       <div className="container flex md:justify-between  text-white gap-4 flex-col md:flex-row  text-left mb-10">
         <h1
           className=" font-semibold text-3xl md:text-4xl text-[#d5d5da]"
