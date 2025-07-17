@@ -26,7 +26,7 @@ const ProgressVideo = () => {
           }}
         >
           <iframe
-            src="https://player.vimeo.com/video/1008017010?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://player.vimeo.com/video/1102269430?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
             style={{

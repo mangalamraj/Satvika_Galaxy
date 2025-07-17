@@ -7,9 +7,11 @@ import Link from "next/link";
 import { useModal } from "@/app/providers/modalProvider";
 import Image from "next/image";
 
-import image1 from "./images/4th Aug 1.jpg";
-import image2 from "./images/4th Aug 2.jpg";
-import image3 from "./images/4th Aug 3.jpg";
+import image1 from "./images/new1.jpg";
+import image2 from "./images/new2.jpg";
+import image3 from "./images/new3.jpg";
+import image4 from "./images/new4.jpg";
+import image5 from "./images/new5.jpg";
 
 const ProgressSliders = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -90,7 +92,7 @@ const ProgressSliders = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            Next update ETA: <p className="inline text-white">November</p>
+            Next update ETA: <p className="inline text-white">Novemeber, 2025</p>
           </div>
           <div
             className="text-sm font-medium  md:items-center text-left "
@@ -129,6 +131,24 @@ const ProgressSliders = () => {
         <div className="keen-slider__slide number-slide1 md:rounded-3xl slide1">
           <Image
             src={image3}
+            alt="Landscape picture"
+            className="hover:scale-110 transition-transform"
+            width={1000}
+            height={1000}
+          />
+        </div>
+        <div className="keen-slider__slide number-slide1 md:rounded-3xl slide1">
+          <Image
+            src={image4}
+            alt="Landscape picture"
+            className="hover:scale-110 transition-transform"
+            width={1000}
+            height={1000}
+          />
+        </div>
+        <div className="keen-slider__slide number-slide1 md:rounded-3xl slide1">
+          <Image
+            src={image5}
             alt="Landscape picture"
             className="hover:scale-110 transition-transform"
             width={1000}
