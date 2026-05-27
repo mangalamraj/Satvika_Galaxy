@@ -71,10 +71,10 @@ const RERA = () => {
               </thead>
               <tbody className="divide-y divide-zinc-800">
                 {[
-                  { name: "Environmental Clearance Compliance Report - June 2025", link: "/Satvika%20EC%20Compliance%20June%202025.pdf" },
-                  { name: "Environmental Clearance Compliance Report - June 2024", link: "/Satvika%20EC%20Compliance%20Jun%202024.pdf" },
-                  { name: "Environmental Clearance Acknowledgment - June 2025", link: "/Ackn_Satvika%20June%2025.pdf" },
-                  { name: "Environmental Clearance Acknowledgment - June 2024", link: "/Ackn_Satvika%20June%2024.pdf" }
+                  { name: "Environmental Compliance Report - June 2025", link: "/Satvika%20EC%20Compliance%20June%202025.pdf" },
+                  { name: "Environmental Compliance Report - June 2024", link: "/Satvika%20EC%20Compliance%20Jun%202024.pdf" },
+                  { name: "Environmental Acknowledgment - June 2025", link: "/Ackn_Satvika%20June%2025.pdf" },
+                  { name: "Environmental Acknowledgment - June 2024", link: "/Ackn_Satvika%20June%2024.pdf" }
                 ].map((doc, idx) => (
                   <tr key={idx} className="hover:bg-zinc-950/40 transition-colors group">
                     <td className="py-5 pr-4 text-sm md:text-base font-semibold text-zinc-200 group-hover:text-white transition-colors">
