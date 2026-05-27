@@ -42,7 +42,7 @@ const RERA = () => {
 
         {/* Heading */}
         <div className="container text-center md:text-5xl text-3xl font-semibold leading-tight">
-          <h2>Environmental Clearance Compliance</h2>
+          <h2>Environmental Compliance</h2>
         </div>
 
         {/* Paragraph */}
